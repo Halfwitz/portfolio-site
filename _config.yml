@@ -3,8 +3,3 @@
 theme: jekyll-theme-cayman
 title: [Michael Lorenz Portfolio]
 description: [Learn more about me as a software developer and my projects.]
-navbar-links:
-  - title: "LinkedIn"
-    url: "https://linkedin.com/in/michaellorenz/"
-  - title: "GitHub"
-    url: "https://github.com/Halfwitz"
