@@ -63,7 +63,7 @@ A **Java-based** system for managing contacts, tasks, and appointments. It began
 ---
 
 ### **Inventory Tracker**  
-An **Android mobile application** for managing inventory items. The original artifact stored user credentials and inventory data locally using SQLite, it handled user authentication and SMS alerts for items reaching zero stock. To address security exploit concerns and improve practicality of the app, I transitioned from SQLite to a cloud-based NoSQL solution. 
+An **Android mobile application** for managing inventory items. The original artifact stored user credentials and inventory data locally using SQLite, and handled user authentication and SMS alerts for items reaching zero stock. To address security exploit concerns and improve practicality of the app, I transitioned from SQLite to a cloud-based NoSQL solution. 
 
 - **Firebase Integration** (Databases)  
   - Migrated from local SQLite to **Firebase Realtime Database**  
