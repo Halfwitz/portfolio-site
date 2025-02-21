@@ -62,7 +62,7 @@ A **Java-based** system for managing contacts, tasks, and appointments. It began
 
    [Second Enhancement Narrative](https://docs.google.com/document/d/1XiGA1cI3U8GF6LZSOhj-rXQay4R1nNbvV-7OncCZVaE/edit?usp=sharing)
 
-<a href="/portfolio-site/inventorytracker" style="display:inline-block; padding:0.6rem 1rem; margin-top:0.5rem; background-color:#007acc; color:#fff; text-decoration:none; border-radius:8px;"> About Day Planner </a>
+<a href="/portfolio-site/inventorytracker" style="display:inline-block; padding:0.6rem 1rem; margin-top:0.5rem; background-color:#007acc;" color:#fff; text-decoration:none; border-radius:8px;"> About Day Planner </a>
 
 ---
 
@@ -88,14 +88,17 @@ An **Android mobile application** for managing inventory items. The original art
 Beyond my capstone enhancements, I’ve built and contributed to various other projects that further demonstrate my skills:
 
 - **[AAC Database PyMongo Dashboard](https://github.com/Halfwitz/CS340-AAC-Database-Dashboard)** (Python, MongoDB, NoSQL, Dash)  
+  
   Developed a data analytics dashboard that integrates with MongoDB. Users can filter, visualize, and map entries from the Austin Animal Center dataset. Employed PyMongo for database operations and Dash for real-time interactive charts and maps.
 
 
 - **[AI Maze Solver using Deep Q-Learning](https://github.com/Halfwitz/CS370-Qlearning-Maze-Pathfinder)** (Python, TensorFlow, Keras) 
+  
   Created a deep reinforcement learning agent that solves randomly generated mazes using a Deep Q-Learning algorithm. Implemented an epsilon-greedy policy, experience replay, and a multi-layer neural network to optimize pathfinding.
 
 
 - **[OpenGL Interactive 3D Scene](https://github.com/Halfwitz/CS330-OpenGL-3D-Scene)** (C++, OpenGL, GLM, GLFW)
+  
   Built a 3D scene application where users can navigate a virtual environment and manipulate objects in real time. Implemented transformations (scaling, rotation, translation), added realistic lighting (ambient, specular, diffuse), and enabled dynamic camera controls.
 
 ---
@@ -106,3 +109,5 @@ Beyond my capstone enhancements, I’ve built and contributed to various other p
 - **GitHub:** [github.com/Halfwitz](https://github.com/Halfwitz)  
 
 You can also view my [Contact Page](/portfolio-site/contact) for more detailed information and additional ways to reach out. I look forward to connecting!
+
+*- Michael Lorenz*
