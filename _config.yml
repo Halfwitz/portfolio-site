@@ -1,10 +1,14 @@
 ### CONFIGURATION ###
 # THEME - utilizes jekyll cayman (https://github.com/pages-themes/cayman) 
-theme: jekyll-theme-cayman
-title: [Michael Lorenz Portfolio]
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+title: Michael Lorenz Portfolio
 description: [Learn more about me as a software developer and my projects.]
+
 navbar-links:
-  - title: "LinkedIn"
-    url: "https://linkedin.com/in/michaellorenz"
-  - title: "GitHub"
-    url: "https://github.com/Halfwitz"
+  linkedin-title: "LinkedIn"
+  linkedin-url: https://linkedin.com/in/michaellorenz
+  github-title: "GitHub"
+  github-url: https://github.com/Halfwitz
