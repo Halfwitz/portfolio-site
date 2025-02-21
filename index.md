@@ -5,14 +5,14 @@ permalink: /
 layout: default
 ---
 
-## Professional Self-Assessment
+## **Professional Self-Assessment**
 
 My name is Michael Lorenz, and I am completing my Bachelor of Science in Computer Science this May. Throughout my coursework, I have focused on projects that highlight my strengths in software design, data structures and algorithms, and database management. My intention is to illustrate the culmination of my learning experiences with this portfolio, to demonstrate my capabilities to potential employers.
 
 **Shaping My Skills and Goals**  
 As a developer, I am particularly intrigued by **backend and full-stack development**, which has been shaped by the many core skills gained throughout development of these projects and assembling them into an ePortfolio:
 - **Collaborating in a Team Environment**
-  My courses frequently simulated team environments, utilizing collaborative strategies like developing comprehensive software design documents for systems, or practicing a Scrum-based software development life cycle by simulating each Agile role (Scrum Master, Product Owner, Developer, Tester) to encourage continuous integration and delivery, teaching me the importance of clear communication and iterative improvement.
+  My courses frequently simulated team environments, utilizing collaborative strategies such as developing comprehensive software design documents for systems, effective communication with the professor, or in one instance practicing a Scrum-based software development life cycle by simulating each Agile role (Scrum Master, Product Owner, Developer, Tester) to encourage continuous integration and delivery, teaching me the importance of clear communication and iterative improvement.
 
 - **Communicating With Stakeholders**  
   In the same Scrum team simulation, I incorporated stakeholder communication by planning Sprint Reviews and incorporating client feedback to update user stories. I've also frequently interacted with hypothetical clients for projects, such as by reading client-meeting transcripts, to refine my ability to understand the clients needs and translate them into software systems that address each requirement.
@@ -31,46 +31,44 @@ For my final capstone course, I developed three enhancements to showcase core sk
 
 ---
 
-## My Final Capstone Project
+## **My Final Capstone Project**
 
-In my final Capstone course, I enhanced three artifacts to better reflect my software development expertise. Below, you’ll find a brief overview of each artifact, along with links to more detailed narratives and repositories.
+In my final Capstone course, I selected two of my original source-code artifacts to better reflect my software development expertise through additional enhancements. Below my code review, you’ll find a brief overview of each artifact, along with links to learn more about my enhancement process.
 
 ### Code Review
 
-Prior to building my enhancements, I conducted a detailed video code review of the original artifacts. In this **42-minute walkthrough**, I analyze the existing code, identify weaknesses, and plan enhancements to improve usability, efficiency, and security:
+Prior to building my enhancements, I conducted a detailed code review of the original artifacts. In this **42-minute walkthrough**, I analyze the existing code, identify weaknesses, and plan enhancements to improve usability, efficiency, and security:
 
 <iframe width="835" height="480" src="https://www.youtube.com/embed/MY6DrOzxTb0" title="Code Review - Michael Lorenz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+*(42 Minutes, recorded Jan. 19, 2025)*
+
 ---
 
-### **Day Planner**  
-**Technologies:** Java, JUnit, Maven, JavaFX
+### **Day Planner** (Java, JUnit, Maven, JavaFX)
 
-A **Java-based** system for managing contacts, tasks, and appointments. It began as a CRUD codebase with JUnit tests for managing Appointment, Task, and Contact objects. The original artifact lacked usability, so I used it as an opportunity to make two enhancements showcasing software engineering/design and data structures/algorithms skills:
+A **Java-based** system for managing contacts, tasks, and appointments. It began as a CRUD codebase with JUnit tests for managing Appointment, Task, and Contact objects. The original artifact lacked usability, so I used it as an opportunity to make two enhancements showcasing software engineering/design and data structures/algorithms skills.
+
+** Enhancements:**
 
 1. **GUI Enhancement** (Software Engineering/Design)  
    - Added a JavaFX interface for intuitive user interaction  
    - Implemented file-based data persistence (CSV)
    - Showcases my understanding of integrating user-facing elements with logic using object-oriented principles
 
-   [Day Planner Repository](https://github.com/Halfwitz/DayPlanner)  
-   [First Enhancement Narrative](https://docs.google.com/document/d/1nWkp6XAssium_03cxKIVNcntV_abxZdUVWUNFve6coc/edit?usp=drive_link)
-
 2. **Radix Trie Enhancement** (Data Structures and Algorithms)  
    - Implemented a Radix Trie to allow fast prefix-based searches  
    - Demonstrates my ability to optimize search operations and handle trade-offs in time vs. space complexity
 
-   [Second Enhancement Narrative](https://docs.google.com/document/d/1XiGA1cI3U8GF6LZSOhj-rXQay4R1nNbvV-7OncCZVaE/edit?usp=sharing)
-
-<a href="/portfolio-site/inventorytracker" style="display:inline-block; padding:0.6rem 1rem; margin-top:0.5rem; background-color:#007acc;" color:#fff; text-decoration:none; border-radius:8px;"> About Day Planner </a>
+<a href="/portfolio-site/dayplanner" style="display:inline-block; padding:0.6rem 1rem; margin-top:0.5rem; background-color:#007acc; color:#fff; text-decoration:none; border-radius:8px;"> About Day Planner Enhancements </a>
 
 ---
 
-### **Inventory Tracker**  
-**Technologies:** Android Studio, Java, Firebase, NoSQL
+### **Inventory Tracker** (Android Studio, Java, Firebase, NoSQL)
 
 An **Android mobile application** for managing inventory items. The original artifact stored user credentials and inventory data locally using SQLite, and handled user authentication and SMS alerts for items reaching zero stock. To address security exploit concerns and improve practicality of the app, I transitioned from SQLite to a cloud-based NoSQL solution. 
 
+** Enhancements:**
 - **Firebase Integration** (Databases)  
   - Migrated from local SQLite to **Firebase Realtime Database**  
   - Incorporated secure user authentication, hashed credentials, and real-time sync  
@@ -78,12 +76,9 @@ An **Android mobile application** for managing inventory items. The original art
 
 <a href="/portfolio-site/inventorytracker" style="display:inline-block; padding:0.6rem 1rem; margin-top:0.5rem; background-color:#007acc; color:#fff; text-decoration:none; border-radius:8px;"> About Inventory Tracker </a>
 
-  [Inventory Tracker Repository](https://github.com/Halfwitz/CS360-Inventory-Tracker-Android)  
-  [Enhancement Narrative](https://docs.google.com/document/d/1O3v66INRr9tlwLYJGXr4ErvUq-r3DzebGuD4ET7MbEA/edit?usp=sharing)
-
 ---
 
-## More of My Work
+## **More of My Work**
 
 Beyond my capstone enhancements, I’ve built and contributed to various other projects that further demonstrate my skills:
 
@@ -94,19 +89,18 @@ Beyond my capstone enhancements, I’ve built and contributed to various other p
 
 - **[AI Maze Solver using Deep Q-Learning](https://github.com/Halfwitz/CS370-Qlearning-Maze-Pathfinder)** (Python, TensorFlow, Keras) 
   
-  Created a deep reinforcement learning agent that solves randomly generated mazes using a Deep Q-Learning algorithm. Implemented an epsilon-greedy policy, experience replay, and a multi-layer neural network to optimize pathfinding.
-
+  Created a reinforcement learning agent that solves 2D mazes using a Deep Q-Learning algorithm. Implemented an epsilon-greedy policy, experience replay, and a multi-layer neural network to optimize pathfinding.
 
 - **[OpenGL Interactive 3D Scene](https://github.com/Halfwitz/CS330-OpenGL-3D-Scene)** (C++, OpenGL, GLM, GLFW)
   
-  Built a 3D scene application where users can navigate a virtual environment and manipulate objects in real time. Implemented transformations (scaling, rotation, translation), added realistic lighting (ambient, specular, diffuse), and enabled dynamic camera controls.
+  Built a 3D application where users can navigate a virtual scene composed of 3D objects. Implemented transformations (scaling, rotation, translation), added realistic lighting (ambient, specular, diffuse), and enabled dynamic camera controls.
 
 ---
 
-## Get in Touch
+## **Get in Touch**
 
-- **LinkedIn:** [linkedin.com/in/michaellorenz/](#)  
-- **GitHub:** [github.com/Halfwitz](https://github.com/Halfwitz)  
+- **LinkedIn:** [{{linkedin.com/in/michaellorenz/}}]({{ site.navbar-links.linkedin-url }})  
+- **GitHub:** [github.com/Halfwitz]({{ site.navbar-links.github-url }})  
 
 You can also view my [Contact Page](/portfolio-site/contact) for more detailed information and additional ways to reach out. I look forward to connecting!
 
