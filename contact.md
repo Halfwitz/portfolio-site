@@ -13,8 +13,8 @@ Here are the best ways to reach me:
 - **LinkedIn:** [linkedin.com/in/michael-lorenz-dev/](https://www.linkedin.com/in/michael-lorenz-dev/)
 - **GitHub:** [github.com/Halfwitz](https://github.com/Halfwitz)
 
-Also, [View My Résumé (PDF)](/assets/Michael-Lorenz-Resume.pdf)
+Also, [view my Résumé (PDF)](/assets/Michael-Lorenz-Resume.pdf)
 
 I look forward to connecting!
 
-- *Michael Lorenz*
+*- Michael Lorenz*
