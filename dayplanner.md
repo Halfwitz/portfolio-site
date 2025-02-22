@@ -8,8 +8,6 @@ is-dayplanner: true
 
 # Day Planner
 
-![Day Planner Contacts Screen with Editable Fields for Each Attribute](/assets/images/dayplanner-contacts.jpg)
-![Day Planner Contacts Screen Search Results for "Mi" Prefix](/assets/images/dayplanner-contacts-prefixsearch.jpg)
 ## Original Artifact Description
 
 For **CS320 – Software Testing, Automation, and QA**, I learned software testing practices for early and frequent defect mitigation during development of the course project. The core project was a basic management system (Contacts, Tasks, and Appointments) with the following characteristics:
@@ -25,6 +23,9 @@ Below are two enhancements I made to the original artifact. Each section can be 
 
 <details>
    <summary><h3 style="display:inline">Enhancement One Narrative – JavaFX GUI</h3></summary>
+
+   <img src="assets/images/dayplanner-contacts.jpg" alt="Day Planner Contacts Screen with Editable Fields for Each Attribute"/>
+
    <h4>Artifact Description</h4>
 
    <p>The artifact I’ve enhanced is Day Planner,  a JavaFX GUI application created from modifications to an original project made as part of my coursework for CS320: Software Testing, Automation, and QA. The original project was a basic service management system for different object types–Contact, Task, and Appointment with Cread, Read, Update, and Delete operations with input validation based on object attribute constraints. It also included extensive JUnit testing with 120 tests to ensure the reliability of its functionality. 
@@ -61,6 +62,9 @@ Below are two enhancements I made to the original artifact. Each section can be 
 
 <details>
    <summary> <h3>Enhancement Two Narrative – Radix Trie Search</h3> </summary>
+   
+   <img src="assets/images/dayplanner-contacts-prefixsearch.jpg" alt="Day Planner Contacts Screen Search Results for 'Mi' Prefix"/>
+
    <h4>Artifact Description</h4>
 
    <p>For the second enhancement, I’ve extended the object lookup capabilities of the service classes to enable efficient searches by any attribute such as <i>firstName</i>, <i>lastName</i>, <i>phone</i>, or <i>address</i> for <i>Contact</i>, using a prefix search algorithm that can return all results that start with the specified prefix. To achieve this, the service class uses a custom Radix tree (also compact trie) data structure, which efficiently indexes object attributes for optimized searching with prefix-based retrieval.</p>
