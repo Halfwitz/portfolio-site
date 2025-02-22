@@ -90,19 +90,24 @@ Below are two enhancements I made to the original artifact. Each section can be 
 
    <p>I initially planned to use a Binary Search Tree (BST) for searching objects by attributes, where each node in the tree stored the field and attribute value as a key (“Michael” for FIRST_NAME), a reference to the object, a left child node (with a key that is &lt;= the parent key) and a right child node (with a key that is &gt; the parent key). Naively, I thought BSTs could handle prefix searches by locating the first matching node (“Michael” when searching “Mich”) and traversing both subtrees to collect only continuous nodes that start with the prefix. After fully implementing the BST, I discovered the flaw in this is that a non-matching middle node could separate two matches, disrupting the continuous range. This match is missed unless I traverse the entire BST, which degrades the search time complexity to <i>O(N)</i>, leading me to explore alternative structures.</p>
 
-   <b>Radix Trees to the Rescue</b>
-   <p> <img src="assets/images/trie-example.jpg" alt="An example of a trie representing the words Michael, Mike, and Michelle." style="float: right; margin:0 5em; width:120px;"/> Through research, I discovered that Trie structures were better suited for my use case and were designed to handle prefixes, breaking each word into character nodes where the hierarchical path forms a word. The figure on the right, generated with the USFCA Trie Visualizer, shows this structure. Searching “Mi,” we locate the “I” node and descendant paths are valid matches (“MIKE,” “MICHAEL,” and “MICHELLE”). However, with potentially thousands of stored attributes and considering some fields like address contain up to 50 characters, there would be an excessive space complexity.</p>
+   <p> 
+      <img src="assets/images/trie-example.jpg" alt="An example of a trie representing the words Michael, Mike, and Michelle." style="float: left;margin: 0 6em;width:120px;"> 
+      <b>Radix Trees to the Rescue</b> 
+      <br> Through research, I discovered that Trie structures were better suited for my use case and were designed to handle prefixes, breaking each word into character nodes where the hierarchical path forms a word. The figure on the right, generated with the USFCA Trie Visualizer, shows this structure. Searching “Mi,” we locate the “I” node and descendant paths are valid matches (“MIKE,” “MICHAEL,” and “MICHELLE”). However, with potentially thousands of stored attributes and considering some fields like address contain up to 50 characters, there would be an excessive space complexity.
+   </p>
    <p>A Compact Trie (Radix Tree) improves on this by merging common prefixes into single nodes, significantly decreasing the space overhead, though implementation is more complex.</p>
    <div style="clear: both;"></div>
 
-   
-
-   <p><img src="assets/images/compact-trie-example.jpg" alt="An example of a compact trie representing the words Michael, Mike, and Michelle." style="float: left; margin: 0 5em; width:250px;" /><b>Challenges in Implementing a Radix Tree</b></br>Handling object storage and field associations was a challenge because multiple objects can have the same attribute value, one object can have duplicate attributes across fields, and searches can be field-specific. To address this, I ensured each word-end node (representing full attributes, the green nodes in the figure) stores a map of fields to all associated objects.</p>
+   <p>
+      <img src="assets/images/compact-trie-example.jpg" alt="An example of a compact trie representing the words Michael, Mike, and Michelle." style="float: right;margin: 0 4.5em;width:220px;">
+      <b>Challenges in Implementing a Radix Tree</b>
+      <br>Handling object storage and field associations was a challenge because multiple objects can have the same attribute value, one object can have duplicate attributes across fields, and searches can be field-specific. To address this, I ensured each word-end node (representing full attributes, the green nodes in the figure) stores a map of fields to all associated objects.
+   </p>
    <div style="clear: both;"></div>
 
    <ul>
       <li>
-         <b>Object Insertion</b>
+         <i>Object Insertion</i>
          <p>To insert an object into the trie, every attribute is inserted. I’ve developed the algorithm to:</p>
          <ol>
             <li>Start at the root and traverse nodes matching portions of the attribute until the following</li>
@@ -113,7 +118,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
          <p>Following this algorithm, the average to worst-case insertion is <i>O(k)</i> time complexity, where k is the length of the attribute. I faced challenges implementing the node splitting, leading to loops in the node pointers due to new nodes pointing back at themselves, but through extensive debug print statements to track insertions, I resolved this issue.</p>
       </li>
       <li>
-         <b>Object Deletion</b>
+         <i>Object Deletion</i>
          <p>Each attribute of an object is deleted from the Radix Tree using the following process:</p>
          <ol>
             <li>Recursively traverse the trie until the word-end for the attribute is found</li>
@@ -123,7 +128,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
          <p>Node deletion also has a worst-case <i>O(k)</i> time complexity due to only having to traverse each character of the word if each character is a node. This method was the most difficult to implement due to challenges such as keeping a parent node reference when merging when necessary. Implementing this function recursively was the most understandable way of passing references. </p>
       </li>
       <li>
-         <b>Prefix Search Implementation</b>
+         <i>Prefix Search Implementation</i>
          <p>The goal of creating this data structure, a prefix search algorithm, was the most simplistic to implement, using the following process:</p>
          <ol>
             <li>Traverse until the first node that represents the prefix being searched is found.</li>
