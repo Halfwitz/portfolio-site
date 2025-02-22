@@ -61,7 +61,7 @@ A **Java-based** system for managing contacts, tasks, and appointments. It began
    - Implemented a Radix Trie to allow fast prefix-based searches  
    - Demonstrates my ability to optimize search operations and handle trade-offs in time vs. space complexity
 
-<a href="/portfolio-site/dayplanner" style="display:inline-block; padding:0.6rem 1rem; margin-top:0.5rem; background-color:#007acc; color:#fff; text-decoration:none; border-radius:8px;"> About Day Planner Enhancements </a>
+<a href="/portfolio-site/dayplanner" class="btn-dark"> More About Day Planner</a>
 
 ---
 
@@ -75,7 +75,7 @@ An **Android mobile application** for managing inventory items. The original art
   - Incorporated secure user authentication, hashed credentials, and real-time sync  
   - Enhanced security by storing all credentials and data in a cloud-based NoSQL database
 
-<a href="/portfolio-site/inventorytracker" style="display:inline-block; padding:0.6rem 1rem; margin-top:0.5rem; background-color:#007acc; color:#fff; text-decoration:none; border-radius:8px;"> About Inventory Tracker </a>
+<a href="/portfolio-site/inventorytracker" class="btn-dark"> More About Inventory Tracker</a>
 
 ---
 
