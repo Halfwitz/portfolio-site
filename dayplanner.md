@@ -87,10 +87,10 @@ Below are two enhancements I made to the original artifact. Each section can be 
    <p>I initially planned to use a Binary Search Tree (BST) for searching objects by attributes, where each node in the tree stored the field and attribute value as a key (“Michael” for FIRST_NAME), a reference to the object, a left child node (with a key that is &lt;= the parent key) and a right child node (with a key that is &gt; the parent key). Naively, I thought BSTs could handle prefix searches by locating the first matching node (“Michael” when searching “Mich”) and traversing both subtrees to collect only continuous nodes that start with the prefix. After fully implementing the BST, I discovered the flaw in this is that a non-matching middle node could separate two matches, disrupting the continuous range. This match is missed unless I traverse the entire BST, which degrades the search time complexity to <i>O(N)</i>, leading me to explore alternative structures.</p>
 
    <b>Radix Trees to the Rescue</b>
-   <img src="/assets/images/trie-example.jpg" alt="An example of a compact trie representing the words Michael, Mike, and Michelle." />
+   <img src="assets/images/trie-example.jpg" alt="An example of a compact trie representing the words Michael, Mike, and Michelle." />
    <p>Through research, I discovered that Trie structures were better suited for my use case and were designed to handle prefixes, breaking each word into character nodes where the hierarchical path forms a word. The figure on the right, generated with the USFCA Trie Visualizer, shows this structure. Searching “Mi,” we locate the “I” node and descendant paths are valid matches (“MIKE,” “MICHAEL,” and “MICHELLE”). However, with potentially thousands of stored attributes and considering some fields like address contain up to 50 characters, there would be an excessive space complexity.</p>
    <p>A Compact Trie (Radix Tree) improves on this by merging common prefixes into single nodes, significantly decreasing the space overhead, though implementation is more complex.</p>
-   <img src="/assets/images/compact-trie-example.jpg" alt="An example of a compact trie representing the words Michael, Mike, and Michelle." />
+   <img src="assets/images/compact-trie-example.jpg" alt="An example of a compact trie representing the words Michael, Mike, and Michelle." />
 
    <b>Challenges in Implementing a Radix Tree</b>
 
