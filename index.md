@@ -3,6 +3,7 @@ title: "Welcome, my name is Michael Lorenz"
 description: "B.S. in Computer Science Candidate (Graduating May 2025)"
 permalink: /
 layout: default
+is-home: true
 ---
 
 ## **Professional Self-Assessment**

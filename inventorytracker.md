@@ -3,6 +3,7 @@ title: "Inventory Tracker"
 description: "An inventory management mobile Android application"
 permalink: /inventorytracker
 layout: default
+is-inventorytracker: true
 ---
 
   [Inventory Tracker Repository](https://github.com/Halfwitz/CS360-Inventory-Tracker-Android)  

@@ -12,3 +12,7 @@ navbar-links:
   linkedin-url: https://www.linkedin.com/in/michael-lorenz-dev/
   github-title: "GitHub"
   github-url: https://github.com/Halfwitz
+
+is-home: false
+is-dayplanner: false
+is-inventorytracker: false
