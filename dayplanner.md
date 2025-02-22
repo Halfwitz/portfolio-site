@@ -35,7 +35,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
 
    <p>By including these enhancements, I’ve significantly improved the usability of the system while achieving maintainability and modularization, making it a valuable addition to my ePortfolio.</p>
 
-   <h3>Course Outcomes Achieved<h3>
+   <h3>Course Outcomes Achieved</h3>
 
    <p>I’ve developed the enhancement with the intention to meet the course outcomes outlined in this capstone course. 
    Building Collaborative Environments - The project’s code includes detailed documentation through JavaDoc comments, and the code is hosted on GitHub to enable contributors to make decisions and contributions regarding the project. Thorough modularity and readable code further encourage future collaboration.</p>
