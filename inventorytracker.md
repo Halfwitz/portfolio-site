@@ -29,8 +29,6 @@ Below is the enhancement I made to the original artifact. This section can be ex
 <details>
    <summary> <h3>Enhancement Narrative – Firebase Authentication & Realtime Database</h3> </summary>
    <br>
-   <img src="assets/images/inventorytracker-auth.jpg" alt="Firebase Authentication Integration Console"/>
-   <img src="assets/images/inventorytracker-firebaseRTDB.jpg" alt="Firebase Authentication Integration Console"/>
 
    <h4>Artifact Description</h4>
 
@@ -39,8 +37,14 @@ Below is the enhancement I made to the original artifact. This section can be ex
    <p>In my enhancement, I replaced the local SQLite implementation with Google Firebase Authentication and Realtime Database services to improve security by removing plain-text credentials from local storage and fixing an authentication bypass exploit. Specifically, the enhancement incorporates:</p> 
 
    <ul>
-      <li><b>Firebase Realtime Database</b> - A secure cloud-based NoSQL storage solution that stores each user’s settings and uses rules to allow users to manage an inventory of items.</li>
-      <li><b>Firebase Authentication</b> - Provides safe user authentication handling sign-in, sign-up, and secure sessions with automatic password hashing and issuing tokens.</li>
+      <li>
+        <b>Firebase Realtime Database</b> - A secure cloud-based NoSQL storage solution that stores each user’s settings and uses rules to allow users to manage an inventory of items.
+        <br><img src="assets/images/inventorytracker-auth.jpg" alt="Firebase Authentication Integration Console" width="500px"/>
+      </li>
+      <li>
+        <b>Firebase Authentication</b> - Provides safe user authentication handling sign-in, sign-up, and secure sessions with automatic password hashing and issuing tokens.
+        <br><img src="assets/images/inventorytracker-firebaseRTDB.jpg" alt="Firebase Realtime Database Integration Console" width="500px"/>
+      </li>
       <li><b>Improved project structure</b> - The original <code>InventoryDatabase</code> class was a monolith of responsibilities. It was split into <code>InventoryDatabase</code>/<code>UserDatabase</code> (data CRUD), <code>InputSanitizer</code> (secure input), and <code>AlertSender</code> (SMS logic) for modularity and readability. Similarly, <code>AuthManager</code> was split from <code>LoginActivity</code>.</li>
    </ul>
 
