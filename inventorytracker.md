@@ -91,4 +91,4 @@ Below is the enhancement I made to the original artifact. This section can be ex
 
 <a href="/portfolio-site" class="btn-dark"> Return to Portfolio Home </a>
 <a href="https://github.com/Halfwitz/CS360-Inventory-Tracker-Android" class="btn-dark" target="_blank"> Original GitHub Repository </a>
-<a href="https://github.com/Halfwitz/DayPlanner" class="btn-dark" target="_blank"> Enhanced GitHub Repository </a>
+<a href="https://github.com/Halfwitz/InventoryTracker" class="btn-dark" target="_blank"> Enhanced GitHub Repository </a>
