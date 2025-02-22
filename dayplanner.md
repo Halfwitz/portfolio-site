@@ -131,6 +131,8 @@ Below are two enhancements I made to the original artifact. Each section can be 
    <p>While Binary Search Trees are generally more efficient in time and space, exploring and implementing Compact Tries was a beneficial experience in my understanding of the trade-offs and benefits of different data structures, such as the benefit of prefix-based searches. By choosing Radix trees over standard trees, many of these operations are likely to run much faster with a best-case <i>O(1)</i> time complexity due to the compression of nodes. Overall, I was glad to acquire knowledge of such data structures, ultimately providing a deeper understanding of algorithmic problem-solving and data structure implementation.</p>
 </details>
 
+---
+
 <a href="https://github.com/Halfwitz/CS320-JUnit-Project" class="btn-dark"> Original GitHub Repository </a>
 <a href="https://github.com/Halfwitz/DayPlanner" class="btn-dark"> Enhanced GitHub Repository </a>
 
