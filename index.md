@@ -6,6 +6,16 @@ layout: default
 is-home: true
 ---
 
+#### Page Contents
+
+1. [Professional Self-Assessment](#professional-self-assessment)
+2. [My Final Capstone Project](#my-final-capstone-project)
+   - [Code Review](#code-review)
+   - [Day Planner](#day-planner-java-junit-maven-javafx)
+   - [Inventory Tracker](#inventory-tracker-android-studio-java-firebase-nosql)
+3. [More of My Work](#more-of-my-work)
+4. [Get in Touch](#get-in-touch)
+
 ## **Professional Self-Assessment**
 
 My name is Michael Lorenz, and I am completing my Bachelor of Science in Computer Science this May. Throughout my coursework, I have focused on projects that highlight my strengths in software design, data structures and algorithms, and database management. My intention is to illustrate the culmination of my learning experiences with this portfolio, to demonstrate my capabilities to potential employers.
