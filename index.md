@@ -86,15 +86,21 @@ Beyond my capstone enhancements, I’ve built and contributed to various other p
 - **[AAC Database PyMongo Dashboard](https://github.com/Halfwitz/CS340-AAC-Database-Dashboard)** (Python, MongoDB, NoSQL, Dash)  
   
   Developed a data analytics dashboard that integrates with MongoDB. Users can filter, visualize, and map entries from the Austin Animal Center dataset. Employed PyMongo for database operations and Dash for real-time interactive charts and maps.
+  <br>
+  <img src="assets/images/aac-dashboard.jpg" alt="Web based dashboard displaying database entries with filters widgets" width="80%"/>
 
 
 - **[AI Maze Solver using Deep Q-Learning](https://github.com/Halfwitz/CS370-Qlearning-Maze-Pathfinder)** (Python, TensorFlow, Keras) 
   
   Created a reinforcement learning agent that solves 2D mazes using a Deep Q-Learning algorithm. Implemented an epsilon-greedy policy, experience replay, and a multi-layer neural network to optimize pathfinding.
+  <br>
+  <img src="assets/images/mazesolver.jpg" alt="A 2D maze with a solution found with AI maze solver" width="250px"/>
 
 - **[OpenGL Interactive 3D Scene](https://github.com/Halfwitz/CS330-OpenGL-3D-Scene)** (C++, OpenGL, GLM, GLFW)
   
   Built a 3D application where users can navigate a virtual scene composed of 3D objects. Implemented transformations (scaling, rotation, translation), added realistic lighting (ambient, specular, diffuse), and enabled dynamic camera controls.
+  <br>
+  <img src="assets/images/3Dscene.jpg" alt="Various objects rendered in a 3D scene" width="80%"/>
 
 ---
 
