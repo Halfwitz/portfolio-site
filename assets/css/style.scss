@@ -3,17 +3,14 @@
 
 @import 'jekyll-theme-cayman';
 
-summary {
-    cursor: pointer;
-    font-weight: normal;
-}
 
-summary h3 {
+
+summary {
     font-weight: normal;
     display: inline;
 }
  
-summary h3:hover {
+summary:hover {
     font-weight: bold;
     color: #000;
 }
