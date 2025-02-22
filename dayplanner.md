@@ -143,6 +143,6 @@ Below are two enhancements I made to the original artifact. Each section can be 
 
 ---
 
-<a href="https://github.com/Halfwitz/CS320-JUnit-Project" class="btn-dark"> Original GitHub Repository </a>
-<a href="https://github.com/Halfwitz/DayPlanner" class="btn-dark"> Enhanced GitHub Repository </a>
+<a href="https://github.com/Halfwitz/CS320-JUnit-Project" class="btn-dark" target="_blank"> Original GitHub Repository </a>
+<a href="https://github.com/Halfwitz/DayPlanner" class="btn-dark" target="_blank"> Enhanced GitHub Repository </a>
 
