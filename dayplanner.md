@@ -71,15 +71,15 @@ Below are two enhancements I made to the original artifact. Each section can be 
    <ul>
       <li><b>Building Collaborative Environments</b> - The project, hosted on Github to allow future contributors to review and improve the code, also features comprehensive Javadoc documentation and inline comments for all classes and methods, ensuring future readability and clarity for others and myself.  This enhancement builds upon previous documentation by including documentation in the CompactTrie and SearchView classes.</li>
       <li><b>Professional Communication</b> - Updated documentation throughout the additions explains the process to achieve a specific goal and the improvements made. Improvements made to the GUI’s style and labeling communicate to the user not only the new search functionality, but also any important error messages regarding invalid input that need to be addressed with red outlining or text for invalid fields. </li>
-      <li><b>Designing and Evaluating Computing Solutions</b> - The original HashMap retrieval is limited to average constant O(1) lookups. It cannot be used to look up an object's other attributes without creating a new HashMap for each attribute with entries for each attribute. Throughout development, I’ve analyzed trade-offs of other data structures until selecting the Radix Tree data structure, with a search complexity of O(k), where k is the search key's length. </li>
+      <li><b>Designing and Evaluating Computing Solutions</b> - The original HashMap retrieval is limited to average constant <i>O(1)</i> lookups. It cannot be used to look up an object's other attributes without creating a new HashMap for each attribute with entries for each attribute. Throughout development, I’ve analyzed trade-offs of other data structures until selecting the Radix Tree data structure, with a search complexity of <i>O(k)</i>, where <i>k</i> is the search key's length. </li>
       <li><b>Utilizing Innovative Techniques and Tools</b> - Trie data structures and compact tries (Radix tree) are innovative data structure techniques that are commonly implemented in computing due to prefix-based searches for applications like text autocompletion, file path navigation, IP routing, and so on. I’ve utilized these data structures in my application for the same benefits of efficient prefix lookup.</li>
    </ul>
 
-   <h4>*Enhancement Process Reflection</h4>
+   <h4>Enhancement Process Reflection</h4>
 
    <b>Problems with BSTs</b>
 
-   <p>I initially planned to use a Binary Search Tree (BST) for searching objects by attributes, where each node in the tree stored the field and attribute value as a key (“Michael” for FIRST_NAME), a reference to the object, a left child node (with a key that is &lt;= the parent key) and a right child node (with a key that is &gt; the parent key). Naively, I thought BSTs could handle prefix searches by locating the first matching node (“Michael” when searching “Mich”) and traversing both subtrees to collect only continuous nodes that start with the prefix. After fully implementing the BST, I discovered the flaw in this is that a non-matching middle node could separate two matches, disrupting the continuous range. This match is missed unless I traverse the entire BST, which degrades the search time complexity to O(N), leading me to explore alternative structures.</p>
+   <p>I initially planned to use a Binary Search Tree (BST) for searching objects by attributes, where each node in the tree stored the field and attribute value as a key (“Michael” for FIRST_NAME), a reference to the object, a left child node (with a key that is &lt;= the parent key) and a right child node (with a key that is &gt; the parent key). Naively, I thought BSTs could handle prefix searches by locating the first matching node (“Michael” when searching “Mich”) and traversing both subtrees to collect only continuous nodes that start with the prefix. After fully implementing the BST, I discovered the flaw in this is that a non-matching middle node could separate two matches, disrupting the continuous range. This match is missed unless I traverse the entire BST, which degrades the search time complexity to <i>O(N)</i>, leading me to explore alternative structures.</p>
 
    <b>Radix Trees to the Rescue</b>
 
@@ -98,7 +98,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
       <li>If a node partially matches the attribute, it is split at the shared portion (when inserting “Michelle” when “Michael” exists, it is split into “Mich” with “ael” and “elle” as children.)</li>
       <li>If no further match exists, a new child is created, storing the remainder of the attribute</li>
    </ol>
-   <p>Following this algorithm, the average to worst-case insertion is *O(k)* time complexity, where k is the length of the attribute. I faced challenges implementing the node splitting, leading to loops in the node pointers due to new nodes pointing back at themselves, but through extensive debug print statements to track insertions, I resolved this issue.</p>
+   <p>Following this algorithm, the average to worst-case insertion is <i>O(k)</i> time complexity, where k is the length of the attribute. I faced challenges implementing the node splitting, leading to loops in the node pointers due to new nodes pointing back at themselves, but through extensive debug print statements to track insertions, I resolved this issue.</p>
 
    <b>Object Deletion</b>
    <p>Each attribute of an object is deleted from the Radix Tree using the following process:</p>
@@ -107,7 +107,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
       <li>Remove the object from the field data. If the node still has data, it remains. If the node has no data but a single child, merge the child with the node. If there are no nodes or children, it is deleted</li>
       <li>If the node should be deleted, remove its reference from its parent node. If the parent now has only one child, merge that child with the parent.</li> 
    </ol>
-   <p>Node deletion also has a worst-case *O(k)* time complexity due to only having to traverse each character of the word if each character is a node. This method was the most difficult to implement due to challenges such as keeping a parent node reference when merging when necessary. Implementing this function recursively was the most understandable way of passing references. </p>
+   <p>Node deletion also has a worst-case <i>O(k)</i> time complexity due to only having to traverse each character of the word if each character is a node. This method was the most difficult to implement due to challenges such as keeping a parent node reference when merging when necessary. Implementing this function recursively was the most understandable way of passing references. </p>
 
    <b>Prefix Search Implementation</b>
    <p>The goal of creating this data structure, a prefix search algorithm, was the most simplistic to implement, using the following process:</p>
@@ -116,8 +116,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
       <li>Traverse all of that node’s descendants using a DFS algorithm, storing all objects</li>
       <li>Return the results as a set of objects.</li>
    </ol>
-   <p>The prefix search also has an efficient lookup time complexity of *O(k + m)*, where m is the number of results starting with the prefix.</p> 
-
-   <p>While Binary Search Trees are generally more efficient in time and space, exploring and implementing Compact Tries was a beneficial experience in my understanding of the trade-offs and benefits of different data structures, such as the benefit of prefix-based searches. By choosing Radix trees over standard trees, many of these operations are likely to run much faster with a best-case O(1) time complexity due to the compression of nodes. Overall, I was glad to acquire knowledge of such data structures, ultimately providing a deeper understanding of algorithmic problem-solving and data structure implementation.</p>
+   <p>The prefix search also has an efficient lookup time complexity of <i>O(k + m)</i>, where m is the number of results starting with the prefix.</p> 
+   <p>While Binary Search Trees are generally more efficient in time and space, exploring and implementing Compact Tries was a beneficial experience in my understanding of the trade-offs and benefits of different data structures, such as the benefit of prefix-based searches. By choosing Radix trees over standard trees, many of these operations are likely to run much faster with a best-case <i>O(1)</i> time complexity due to the compression of nodes. Overall, I was glad to acquire knowledge of such data structures, ultimately providing a deeper understanding of algorithmic problem-solving and data structure implementation.</p>
 </details>
 
