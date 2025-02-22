@@ -5,18 +5,6 @@ permalink: /dayplanner
 layout: default
 ---
 
-<style>
-   summary {
-   cursor: pointer;
-   font-weight: normal;
-   }
-
-   summary:hover {
-   font-weight: bold;
-   }
-
-</style>
-
 # Day Planner
 <a href="https://github.com/Halfwitz/CS320-JUnit-Project" style="display:inline-block; padding:0.6rem 1rem; margin-top:0.5rem; background-color:#007acc; color:#fff; text-decoration:none; border-radius:8px;">
   Original GitHub Repository </a>        <a href="https://github.com/Halfwitz/DayPlanner" style="display:inline-block; padding:0.6rem 1rem;margin-top:0.5rem; background-color:#28a745; color:#fff; text-decoration:none; border-radius:8px;"> Enhanced GitHub Repository </a>

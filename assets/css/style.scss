@@ -1,0 +1,13 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+summary {
+    cursor: pointer;
+    font-weight: normal;
+}
+ 
+summary:hover {
+    font-weight: bold;
+}
