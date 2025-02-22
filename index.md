@@ -118,7 +118,7 @@ Beyond my capstone enhancements, I’ve built and contributed to various other p
 
 ## **Get in Touch**
 
-- **LinkedIn:** [linkedin.com/in/michaellorenz/]({{ site.navbar-links.linkedin-url }})  
+- **LinkedIn:** [linkedin.com/in/michael-lorenz-dev/]({{ site.navbar-links.linkedin-url }})  
 - **GitHub:** [github.com/Halfwitz]({{ site.navbar-links.github-url }})  
 
 You can also view my [Contact Page](/portfolio-site/contact) for more detailed information and additional ways to reach out. I look forward to connecting!
