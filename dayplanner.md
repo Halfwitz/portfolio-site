@@ -23,7 +23,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
 
 <details>
    <summary><h3 style="display:inline">Enhancement One Narrative – JavaFX GUI</h3></summary>
-
+   </br>
    <img src="assets/images/dayplanner-contacts.jpg" alt="Day Planner Contacts Screen with Editable Fields for Each Attribute"/>
 
    <h4>Artifact Description</h4>
@@ -62,7 +62,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
 
 <details>
    <summary> <h3>Enhancement Two Narrative – Radix Trie Search</h3> </summary>
-   
+   </br>
    <img src="assets/images/dayplanner-contacts-prefixsearch.jpg" alt="Day Planner Contacts Screen Search Results for 'Mi' Prefix"/>
 
    <h4>Artifact Description</h4>
