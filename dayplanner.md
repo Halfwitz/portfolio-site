@@ -5,6 +5,18 @@ permalink: /dayplanner
 layout: default
 ---
 
+<style>
+   summary {
+   cursor: pointer;
+   font-weight: normal;
+   }
+
+   summary:hover {
+   font-weight: bold;
+   }
+
+</style>
+
 # Day Planner
 <a href="https://github.com/Halfwitz/CS320-JUnit-Project" style="display:inline-block; padding:0.6rem 1rem; margin-top:0.5rem; background-color:#007acc; color:#fff; text-decoration:none; border-radius:8px;">
   Original GitHub Repository </a>        <a href="https://github.com/Halfwitz/DayPlanner" style="display:inline-block; padding:0.6rem 1rem;margin-top:0.5rem; background-color:#28a745; color:#fff; text-decoration:none; border-radius:8px;"> Enhanced GitHub Repository </a>
@@ -15,11 +27,13 @@ For **CS320 – Software Testing, Automation, and QA**, I learned software testi
 
 - **CRUD operations** for each object type, with each object having a unique ID 
 - **Validation Requirements** to ensure data integrity (minimum/maximum number of characters, non-null, no whitespace)  
-- **Extensive JUnit Testing** 120 JUnit tests were coded to minimize defects, following test-driven development practices with strategies such as equivalance partitioning, boundary value analysis, and statement/decision testing
+- **Extensive JUnit Testing** 120 JUnit tests were coded to minimize defects, following test-driven development practices and using strategies such as equivalance partitioning, boundary value analysis, and statement/decision testing
 
 ## Enhancements
 Below are two enhancements I made to the original artifact. Each section can be expanded to read a **detailed narrative** of what was changed and why.
-<hr>
+
+---
+
 <details>
    <summary><h3 style="display:inline">Enhancement One Narrative – JavaFX GUI</h3></summary>
    <h4>Artifact Description</h4>
@@ -53,7 +67,9 @@ Below are two enhancements I made to the original artifact. Each section can be 
 
    <p>Throughout development, time management was a recurring challenge. Each challenge provided significant time constraints that I could not fully accommodate, so despite completing core functionalities, I could not implement the advanced features I planned, like CSS styling and unit tests for GUI components. I also have additions to make to the functionality of the appointment management screen and user-facing error messages. Seeking guidance from online communities revealed strongly held conflicting opinions, emphasizing the need to critically evaluate advice in a timely manner. Going forward, especially when faced with time constraints, I will be sure to focus on time-efficient coding by using additional libraries for common utilities like CSV file parsing, input validation and sanitization, ID generation, etc.</p> 
 </details>
-<hr>
+
+---
+
 <details>
    <summary> <h3 style="display:inline">Enhancement Two Narrative – Radix Trie Search</h3> </summary>
    <h4>Artifact Description</h4>
