@@ -15,11 +15,16 @@ is-inventorytracker: true
 Below is the enhancement I made to the original artifact. This section can be expanded to read a **detailed narrative** of what was changed and why.
 
 ---
+![Invetory Tracker Login Screen](/assets/images/inventorytracker-login.jpg)
+![Invetory Tracker Inventory Screen](/assets/images/inventorytracker-inventory.jpg)
+![Invetory Tracker Edit Item Screen](/assets/images/inventorytracker-edititem.jpg)
+![Invetory Tracker SMS Alerts](/assets/images/inventorytracker-SMSalert.jpg)
 
 <details>
    <summary> <h3>Enhancement Narrative – Firebase Authentication & Realtime Database</h3> </summary>
    <br>
-   <img src="" alt="Firebase Integrations"/>
+   <img src="assets/images/inventorytracker-auth.jpg" alt="Firebase Authentication Integration Console"/>
+   <img src="assets/images/inventorytracker-firebaseRTDB.jpg" alt="Firebase Authentication Integration Console"/>
 
    <h4>Artifact Description</h4>
 
