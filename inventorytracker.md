@@ -11,13 +11,13 @@ is-inventorytracker: true
 ## Original Artifact Description
 For **CS360 – Mobile Architect & Programming**, the goal was to develop an **inventory management mobile application** that meets real-world use cases for warehouse associates. The application:
 - Allowed users to register and log in
-<br><img src="assets/images/inventorytracker-login.jpg" alt="Invetory Tracker Login Screen" width="300px"/>
+<br><img src="assets/images/inventorytracker-login.jpg" alt="Invetory Tracker Login Screen" width="35%"/>
 - Stored and modified item details (name, description, quantity, and UPC)
 <br>
-<img src="assets/images/inventorytracker-inventory.jpg" alt="Inventory Tracker Inventory Screen" width="300px"/>
-<img src="assets/images/inventorytracker-edititem.jpg" alt="Inventory Tracker Edit Item Screen" width="300px"/>
+<img src="assets/images/inventorytracker-inventory.jpg" alt="Inventory Tracker Inventory Screen" width="35%"/>
+<img src="assets/images/inventorytracker-edititem.jpg" alt="Inventory Tracker Edit Item Screen" width="35%"/>
 - Sent SMS alerts when items reached zero stock
-<br><img src="assets/images/inventorytracker-SMSalert.jpg" alt="Firebase Authentication Integration Console" width="300px"/>
+<br><img src="assets/images/inventorytracker-SMSalert.jpg" alt="Firebase Authentication Integration Console" width="40%"/>
 
 Originally, this artifact used a local **SQLite** database for user credentials and inventory data. While functional, storing passwords in plain text posed security risks, and local storage restricted multi-device usage. Despite these limitations, it aligned with **Database** concepts by illustrating how an internal SQL database integrates with an Android app.
 
@@ -39,11 +39,11 @@ Below is the enhancement I made to the original artifact. This section can be ex
    <ul>
       <li>
         <b>Firebase Realtime Database</b> - A secure cloud-based NoSQL storage solution that stores each user’s settings and uses rules to allow users to manage an inventory of items.
-        <br><img src="assets/images/inventorytracker-auth.jpg" alt="Firebase Authentication Integration Console" width="750px"/>
+        <br><img src="assets/images/inventorytracker-auth.jpg" alt="Firebase Authentication Integration Console" width="90%"/>
       </li>
       <li>
         <b>Firebase Authentication</b> - Provides safe user authentication handling sign-in, sign-up, and secure sessions with automatic password hashing and issuing tokens.
-        <br><img src="assets/images/inventorytracker-firebaseRTDB.jpg" alt="Firebase Realtime Database Integration Console" width="750px"/>
+        <br><img src="assets/images/inventorytracker-firebaseRTDB.jpg" alt="Firebase Realtime Database Integration Console" width="90%"/>
       </li>
       <li><b>Improved project structure</b> - The original <code>InventoryDatabase</code> class was a monolith of responsibilities. It was split into <code>InventoryDatabase</code>/<code>UserDatabase</code> (data CRUD), <code>InputSanitizer</code> (secure input), and <code>AlertSender</code> (SMS logic) for modularity and readability. Similarly, <code>AuthManager</code> was split from <code>LoginActivity</code>.</li>
    </ul>

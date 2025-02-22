@@ -24,7 +24,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
 <details>
    <summary><h3 style="display:inline">Enhancement One Narrative – JavaFX GUI</h3></summary>
    <br>
-   <img src="assets/images/dayplanner-contacts.jpg" alt="Day Planner Contacts Screen with Editable Fields for Each Attribute"/>
+   <img src="assets/images/dayplanner-contacts.jpg" alt="Day Planner Contacts Screen with Editable Fields for Each Attribute" width="80%"/>
 
    <h4>Artifact Description</h4>
 
@@ -63,7 +63,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
 <details>
    <summary> <h3>Enhancement Two Narrative – Radix Trie Search</h3> </summary>
    <br>
-   <img src="assets/images/dayplanner-contacts-prefixsearch.jpg" alt="Day Planner Contacts Screen Search Results for 'Mi' Prefix"/>
+   <img src="assets/images/dayplanner-contacts-prefixsearch.jpg" alt="Day Planner Contacts Screen Search Results for 'Mi' Prefix" width="70%"/>
 
    <h4>Artifact Description</h4>
 
@@ -91,7 +91,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
    <p>I initially planned to use a Binary Search Tree (BST) for searching objects by attributes, where each node in the tree stored the field and attribute value as a key (“Michael” for FIRST_NAME), a reference to the object, a left child node (with a key that is &lt;= the parent key) and a right child node (with a key that is &gt; the parent key). Naively, I thought BSTs could handle prefix searches by locating the first matching node (“Michael” when searching “Mich”) and traversing both subtrees to collect only continuous nodes that start with the prefix. After fully implementing the BST, I discovered the flaw in this is that a non-matching middle node could separate two matches, disrupting the continuous range. This match is missed unless I traverse the entire BST, which degrades the search time complexity to <i>O(N)</i>, leading me to explore alternative structures.</p>
 
    <p> 
-      <img src="assets/images/trie-example.jpg" alt="An example of a trie representing the words Michael, Mike, and Michelle." style="float: left;margin: 0 6em;width:120px;"> 
+      <img src="assets/images/trie-example.jpg" alt="An example of a trie representing the words Michael, Mike, and Michelle." style="float: left;margin: 0 6em;width:13%;"> 
       <b>Radix Trees to the Rescue</b> 
       <br> Through research, I discovered that Trie structures were better suited for my use case and were designed to handle prefixes, breaking each word into character nodes where the hierarchical path forms a word. The figure on the left, generated with the <a href="https://www.cs.usfca.edu/~galles/visualization/Trie.html" target="_blank">USFCA Trie Visualizer</a>, sFhows this structure. Searching “Mi,” we locate the “I” node and descendant paths are valid matches (“MIKE,” “MICHAEL,” and “MICHELLE”). However, with potentially thousands of stored attributes and considering some fields like address contain up to 50 characters, there would be an excessive space complexity.
    </p>
@@ -99,7 +99,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
    <div style="clear: both;"></div>
 
    <p>
-      <img src="assets/images/compact-trie-example.jpg" alt="An example of a compact trie representing the words Michael, Mike, and Michelle." style="float: right;margin: 0 4.5em;width:220px;">
+      <img src="assets/images/compact-trie-example.jpg" alt="An example of a compact trie representing the words Michael, Mike, and Michelle." style="float: right;margin: 0 4.5em;width:22%;">
       <b>Challenges in Implementing a Radix Tree</b>
       <br>Handling object storage and field associations was a challenge because multiple objects can have the same attribute value, one object can have duplicate attributes across fields, and searches can be field-specific. To address this, I ensured each word-end node (representing full attributes, the green nodes in the figure) stores a map of fields to all associated objects.
    </p>
