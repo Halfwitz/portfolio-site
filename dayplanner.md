@@ -59,7 +59,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
 ---
 
 <details>
-   <summary> <h3 style="display:inline">Enhancement Two Narrative – Radix Trie Search</h3> </summary>
+   <summary> <h3>Enhancement Two Narrative – Radix Trie Search</h3> </summary>
    <h4>Artifact Description</h4>
 
    <p>For the second enhancement, I’ve extended the object lookup capabilities of the service classes to enable efficient searches by any attribute such as firstName, lastName, phone, or address for contact, using a prefix search algorithm that can return all results that start with the specified prefix. To achieve this, the service class uses a custom Radix tree (also compact trie) data structure, which efficiently indexes object attributes for optimized searching with prefix-based retrieval.</p>
