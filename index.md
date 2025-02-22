@@ -20,12 +20,12 @@ is-home: true
 
 ## **Professional Self-Assessment**
 
-My name is Michael Lorenz, and I am completing my Bachelor of Science in Computer Science this May. Throughout my coursework, I have focused on projects that highlight my strengths in software design, data structures and algorithms, and database management. My intention is to illustrate the culmination of my learning experiences with this portfolio, to demonstrate my capabilities to potential employers.
+My name is Michael Lorenz, and I am completing my Bachelor of Science in Computer Science this May. Throughout my coursework, I have focused on projects that highlight my strengths in software design, data structures and algorithms, and database management. My intention is to illustrate the culmination of my learning experiences with this portfolio to demonstrate my capabilities to potential employers.
 
 **Shaping My Skills and Goals**  
-As a developer, I am particularly intrigued by **backend and full-stack development**, which has been shaped by the many core skills gained throughout development of these projects and assembling them into an ePortfolio:
+As a developer, I am particularly intrigued by **backend and full-stack development**, an interest which has been shaped by the many core skills gained throughout development of these projects and assembling them into an ePortfolio:
 - **Collaborating in a Team Environment**
-  My courses frequently simulated team environments, utilizing collaborative strategies such as developing comprehensive software design documents for systems, effective communication with the professor, or in one instance practicing a Scrum-based software development life cycle by simulating each Agile role (Scrum Master, Product Owner, Developer, Tester) to encourage continuous integration and delivery. This taught me the importance of clear communication and iterative improvement.
+  My courses frequently simulated team environments, utilizing collaborative strategies such as developing comprehensive software design documents for systems, effective communication with the professor, or in one instance practicing an Agile software development life cycle by simulating each Scrum team role (Scrum Master, Product Owner, Developer, Tester) to encourage continuous integration and delivery. This taught me the importance of clear communication and iterative improvement.
 
 - **Communicating With Stakeholders**  
   In the same Scrum team simulation, I incorporated stakeholder communication by planning Sprint Reviews and integrating client feedback to update user stories. I've also frequently interacted with hypothetical clients for projects, such as by reading client-meeting transcripts, to refine my ability to understand the client's needs and translate them into software systems that address each requirement.
@@ -37,7 +37,7 @@ As a developer, I am particularly intrigued by **backend and full-stack developm
   I've developed projects that integrate database, like MongoDB for a web-based database dashboard using the PyMongo driver, or Firebase Realtime Database for an Android CRUD application with a cloud-based NoSQL solution. I've also worked with SQLite for a local relational storage and querying solution.
 
 - **Security Mindset**  
-  I learned how to anticipate exploits and mitigate vulnerabilities, such as in a Spring Boot program where I addressed vulnerabilities found through static and functional testing, and integrated SHA-256 to verify file integrity during data transfers using checksums. Proactively designing applications with security in mind and thorough testing is vital in preventing critical defects or attacks in the integrity of the software.  
+  I learned how to anticipate exploits and mitigate vulnerabilities, such as in a Spring Boot program where I addressed vulnerabilities found through static and functional testing, and integrated SHA-256 checksums to verify file integrity during data transfers. Proactively designing applications with security in mind and exhaustive testing is vital in preventing critical defects or attacks in the integrity of the software.  
 
 **Overview of My Artifacts**  
 For my final capstone course, I developed three enhancements to showcase core skills in Software Engineering/Design, Data Structures/Algorithms, and Databases. Each artifact—particularly my **Day Planner** application (enhanced to demonstrate GUI and data structure improvements) and my **Inventory Tracker** mobile application (enhanced with Firebase integration) serves as the basis of my professional journey and is representational of my dedication to building secure, user-friendly, and efficient applications.
@@ -60,16 +60,16 @@ Prior to building my enhancements, I conducted a detailed code review of the ori
 
 ### **Day Planner** (Java, JUnit, Maven, JavaFX)
 
-A **Java-based** system for managing contacts, tasks, and appointments. It began as a CRUD codebase with JUnit tests for managing Appointment, Task, and Contact objects. The original artifact lacked usability, so I used it as an opportunity to make two enhancements showcasing software engineering/design and data structures/algorithms skills.
+A **Java-based** system for managing contacts, tasks, and appointments--It began as a CRUD codebase with JUnit tests for managing Appointment, Task, and Contact objects. The original artifact lacked usability, so I used it as an opportunity to make two enhancements showcasing software engineering/design and data structures/algorithms skills.
 
 **Enhancements:**
 
-1. **GUI Enhancement** (Software Engineering/Design)  
+1. **JavaFX GUI** (Software Engineering/Design)  
    - Added a JavaFX interface for intuitive user interaction  
    - Implemented file-based data persistence (CSV)
    - Showcases my understanding of integrating user-facing elements with logic using object-oriented principles
 
-2. **Radix Trie Enhancement** (Data Structures and Algorithms)  
+2. **Radix Trie Sorting and Prefix Search Algorithm** (Data Structures and Algorithms)  
    - Implemented a Radix Trie to allow fast prefix-based searches  
    - Demonstrates my ability to optimize search operations and handle trade-offs in time vs. space complexity
 
@@ -79,7 +79,7 @@ A **Java-based** system for managing contacts, tasks, and appointments. It began
 
 ### **Inventory Tracker** (Android Studio, Java, Firebase, NoSQL)
 
-An **Android mobile application** for managing inventory items. The original artifact stored user credentials and inventory data locally using SQLite, and handled user authentication and SMS alerts for items reaching zero stock. To address security exploit concerns and improve practicality of the app, I transitioned from SQLite to a cloud-based NoSQL solution. 
+An **Android mobile application** for managing inventory items--The original artifact stored user credentials and inventory data locally using SQLite, and handled user authentication and SMS alerts for items reaching zero stock. To address security exploit concerns and improve practicality of the app, I transitioned from SQLite to a cloud-based NoSQL solution. 
 
 **Enhancements:**
 - **Firebase Integration** (Databases)  
@@ -118,7 +118,7 @@ Beyond my capstone enhancements, I’ve built and contributed to various other p
 
 ## **Get in Touch**
 
-- **LinkedIn:** [{{linkedin.com/in/michaellorenz/}}]({{ site.navbar-links.linkedin-url }})  
+- **LinkedIn:** [linkedin.com/in/michaellorenz/]({{ site.navbar-links.linkedin-url }})  
 - **GitHub:** [github.com/Halfwitz]({{ site.navbar-links.github-url }})  
 
 You can also view my [Contact Page](/portfolio-site/contact) for more detailed information and additional ways to reach out. I look forward to connecting!
