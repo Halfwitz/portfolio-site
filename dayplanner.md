@@ -21,31 +21,32 @@ For **CS320 – Software Testing, Automation, and QA**, I learned software testi
 Below are two enhancements I made to the original artifact. Each section can be expanded to read a **detailed narrative** of what was changed and why.
 
 <details>
-   <summary> Enhancement One – JavaFX GUI</summary>
+   <summary><h3 style="display:inline">Enhancement One – JavaFX GUI</h3></summary>
 
-   ### Day Planner JavaFX GUI Narrative
+   <h2>Day Planner JavaFX GUI Narrative</h2>
 
-   **Artifact Description**
+   <h3>Artifact Description</h3>
 
-   The artifact I’ve enhanced is Day Planner,  a JavaFX GUI application created from modifications to an original project made as part of my coursework for CS320: Software Testing, Automation, and QA. The original project was a basic service management system for different object types–Contact, Task, and Appointment with Cread, Read, Update, and Delete operations with input validation based on object attribute constraints. It also included extensive JUnit testing with 120 tests to ensure the reliability of its functionality. 
-   My enhancement transforms the original project into a fully functional user-facing application by adding a GUI built with JavaFX that allows users to interact with the system. This GUI includes separated screens for managing Contacts, Tasks, and Appointments, featuring editable data tables and persistent data storage through CSV files, improving the system’s usability and testing capabilities.
+   <p>The artifact I’ve enhanced is Day Planner,  a JavaFX GUI application created from modifications to an original project made as part of my coursework for CS320: Software Testing, Automation, and QA. The original project was a basic service management system for different object types–Contact, Task, and Appointment with Cread, Read, Update, and Delete operations with input validation based on object attribute constraints. It also included extensive JUnit testing with 120 tests to ensure the reliability of its functionality. 
+   My enhancement transforms the original project into a fully functional user-facing application by adding a GUI built with JavaFX that allows users to interact with the system. This GUI includes separated screens for managing Contacts, Tasks, and Appointments, featuring editable data tables and persistent data storage through CSV files, improving the system’s usability and testing capabilities.</p>
 
-   **Justification of Enhancements**
+   <h3>Justification of Enhancements</h3>
 
-   I’ve included this artifact in my ePortfolio because it is a prime example of my skills related to Software Engineering/Design, a critical area I want to showcase. I’ve enhanced this artifact because the original was strong in functionality and testing, but it lacked usability and user testing capabilities. Enhancing it with a user interface allowed me to demonstrate key software development skills through the additional components, aligning it with professional software engineering standards.
+   <p>I’ve included this artifact in my ePortfolio because it is a prime example of my skills related to Software Engineering/Design, a critical area I want to showcase. I’ve enhanced this artifact because the original was strong in functionality and testing, but it lacked usability and user testing capabilities. Enhancing it with a user interface allowed me to demonstrate key software development skills through the additional components, aligning it with professional software engineering standards.</p>
 
-   The JavaFX GUI components provide users with screens for managing Contacts, Tasks, and Appointments, showcasing my ability to implement effective user interfaces and understanding of reusable and modular UI design with components like TableView, which dynamically generates data rows for any data object with functional controls. Object storage persistence is achieved by including components like ServiceFileUtil and the CsvSerializable interface, showcasing my ability to handle file input or output by writing Appointment, Contact, and Task objects into CSV files and reading them back into the program. GUI elements are organized into controller and UI packages, separating UI logic from business logic using controllers like ContactController and views like ContactView, demonstrating my ability to design and integrate a separation of backend and frontend components. Reusability utilities like InputValidator were created to demonstrate input validation and error handling skills within the system, preventing invalid data from being stored and processed by the application. 
+   <p>The JavaFX GUI components provide users with screens for managing Contacts, Tasks, and Appointments, showcasing my ability to implement effective user interfaces and understanding of reusable and modular UI design with components like TableView, which dynamically generates data rows for any data object with functional controls. Object storage persistence is achieved by including components like ServiceFileUtil and the CsvSerializable interface, showcasing my ability to handle file input or output by writing <i>Appointment</i>, <i>Contact</i>, and <i>Task</i> objects into CSV files and reading them back into the program. GUI elements are organized into controller and UI packages, separating UI logic from business logic using controllers like ContactController and views like ContactView, demonstrating my ability to design and integrate a separation of backend and frontend components. Reusability utilities like InputValidator were created to demonstrate input validation and error handling skills within the system, preventing invalid data from being stored and processed by the application.</p>
 
-   By including these enhancements, I’ve significantly improved the usability of the system while achieving maintainability and modularization, making it a valuable addition to my ePortfolio.
+   <p>By including these enhancements, I’ve significantly improved the usability of the system while achieving maintainability and modularization, making it a valuable addition to my ePortfolio.</p>
 
    **Course Outcomes Achieved**
 
-   I’ve developed the enhancement with the intention to meet the course outcomes outlined in this capstone course. 
-   Building Collaborative Environments - The project’s code includes detailed documentation through JavaDoc comments, and the code is hosted on GitHub to enable contributors to make decisions and contributions regarding the project. Thorough modularity and readable code further encourage future collaboration.
-
-   - *Professional Communication* - Documentation provides clear communication for technical users, however, to best meet this outcome, I intend to add audience-friendly communication in the GUI, including descriptive error messages for invalid input or additional navigation messages. I will also add a README for all audiences explaining usage and enhancement details.
-   - *Designing and Evaluating Computing Solutions* - The project balances trade-offs between performance and persistence by using memory-based storage for speed during runtime and file-based storage for data persistence, demonstrating an understanding of computing solution standards and involved trade-offs. 
-   - *Utilizing Innovative Techniques and Tools* - Industry standard tools like JavaFX for UI development and Java library classes like BufferedReader and BufferedWriter for file handling are utilized to implement the enhancement and efficiently add value to this project. 
+   <p>I’ve developed the enhancement with the intention to meet the course outcomes outlined in this capstone course. 
+   Building Collaborative Environments - The project’s code includes detailed documentation through JavaDoc comments, and the code is hosted on GitHub to enable contributors to make decisions and contributions regarding the project. Thorough modularity and readable code further encourage future collaboration.</p>
+   <ul>
+     <li><b>Professional Communication</b> - Documentation provides clear communication for technical users, however, to best meet this outcome, I intend to add audience-friendly communication in the GUI, including descriptive error messages for invalid input or additional navigation messages. I will also add a README for all audiences explaining usage and enhancement details.</li>
+     <li><b>Designing and Evaluating Computing Solutions</b> - The project balances trade-offs between performance and persistence by using memory-based storage for speed during runtime and file-based storage for data persistence, demonstrating an understanding of computing solution standards and involved trade-offs.</li>
+     <li><b>Utilizing Innovative Techniques and Tools*</b> - Industry standard tools like JavaFX for UI development and Java library classes like BufferedReader and BufferedWriter for file handling are utilized to implement the enhancement and efficiently add value to this project.</li>
+   </ul>
 
    <h3>Enhancement Process Reflection</h3>
 
