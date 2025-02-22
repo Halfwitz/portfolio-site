@@ -25,10 +25,10 @@ My name is Michael Lorenz, and I am completing my Bachelor of Science in Compute
 **Shaping My Skills and Goals**  
 As a developer, I am particularly intrigued by **backend and full-stack development**, which has been shaped by the many core skills gained throughout development of these projects and assembling them into an ePortfolio:
 - **Collaborating in a Team Environment**
-  My courses frequently simulated team environments, utilizing collaborative strategies such as developing comprehensive software design documents for systems, effective communication with the professor, or in one instance practicing a Scrum-based software development life cycle by simulating each Agile role (Scrum Master, Product Owner, Developer, Tester) to encourage continuous integration and delivery, teaching me the importance of clear communication and iterative improvement.
+  My courses frequently simulated team environments, utilizing collaborative strategies such as developing comprehensive software design documents for systems, effective communication with the professor, or in one instance practicing a Scrum-based software development life cycle by simulating each Agile role (Scrum Master, Product Owner, Developer, Tester) to encourage continuous integration and delivery. This taught me the importance of clear communication and iterative improvement.
 
 - **Communicating With Stakeholders**  
-  In the same Scrum team simulation, I incorporated stakeholder communication by planning Sprint Reviews and incorporating client feedback to update user stories. I've also frequently interacted with hypothetical clients for projects, such as by reading client-meeting transcripts, to refine my ability to understand the clients needs and translate them into software systems that address each requirement.
+  In the same Scrum team simulation, I incorporated stakeholder communication by planning Sprint Reviews and integrating client feedback to update user stories. I've also frequently interacted with hypothetical clients for projects, such as by reading client-meeting transcripts, to refine my ability to understand the client's needs and translate them into software systems that address each requirement.
 
 - **Data Structures and Algorithms**  
   I have implemented both standard (HashMaps) and more advanced (Radix Tries) data structures, deepening my understanding of trade-offs in speed, memory usage, and application complexity.
