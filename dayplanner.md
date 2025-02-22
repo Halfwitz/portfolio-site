@@ -21,10 +21,7 @@ For **CS320 – Software Testing, Automation, and QA**, I learned software testi
 Below are two enhancements I made to the original artifact. Each section can be expanded to read a **detailed narrative** of what was changed and why.
 
 <details>
-   <summary><h3 style="display:inline">Enhancement One – JavaFX GUI</h3></summary>
-
-   <h2>Day Planner JavaFX GUI Narrative</h2>
-
+   <summary><h2 style="display:inline">Enhancement One Narrative – JavaFX GUI</h2></summary>
    <h3>Artifact Description</h3>
 
    <p>The artifact I’ve enhanced is Day Planner,  a JavaFX GUI application created from modifications to an original project made as part of my coursework for CS320: Software Testing, Automation, and QA. The original project was a basic service management system for different object types–Contact, Task, and Appointment with Cread, Read, Update, and Delete operations with input validation based on object attribute constraints. It also included extensive JUnit testing with 120 tests to ensure the reliability of its functionality. 
@@ -38,21 +35,21 @@ Below are two enhancements I made to the original artifact. Each section can be 
 
    <p>By including these enhancements, I’ve significantly improved the usability of the system while achieving maintainability and modularization, making it a valuable addition to my ePortfolio.</p>
 
-   **Course Outcomes Achieved**
+   <h3>Course Outcomes Achieved<h3>
 
    <p>I’ve developed the enhancement with the intention to meet the course outcomes outlined in this capstone course. 
    Building Collaborative Environments - The project’s code includes detailed documentation through JavaDoc comments, and the code is hosted on GitHub to enable contributors to make decisions and contributions regarding the project. Thorough modularity and readable code further encourage future collaboration.</p>
    <ul>
      <li><b>Professional Communication</b> - Documentation provides clear communication for technical users, however, to best meet this outcome, I intend to add audience-friendly communication in the GUI, including descriptive error messages for invalid input or additional navigation messages. I will also add a README for all audiences explaining usage and enhancement details.</li>
      <li><b>Designing and Evaluating Computing Solutions</b> - The project balances trade-offs between performance and persistence by using memory-based storage for speed during runtime and file-based storage for data persistence, demonstrating an understanding of computing solution standards and involved trade-offs.</li>
-     <li><b>Utilizing Innovative Techniques and Tools*</b> - Industry standard tools like JavaFX for UI development and Java library classes like BufferedReader and BufferedWriter for file handling are utilized to implement the enhancement and efficiently add value to this project.</li>
+     <li><b>Utilizing Innovative Techniques and Tools</b> - Industry standard tools like JavaFX for UI development and Java library classes like BufferedReader and BufferedWriter for file handling are utilized to implement the enhancement and efficiently add value to this project.</li>
    </ul>
 
    <h3>Enhancement Process Reflection</h3>
 
    <p>Enhancing this project was a very challenging process that I began by planning my enhancements to improve user interaction and system scalability. First, in designing the architecture for the JavaFX application, I structured it into module components with individual view and controller classes for each major screen and screen component. Learning to effectively separate UI logic from backend service was initially challenging. However, through research and development, I learned to delegate UI responsibilities to View classes and business logic to Controller classes, separating frontend and backend to create a maintainable architecture.</p>
 
-   <p>I encountered challenges in implementing reusable components like the TableView class, which dynamically creates a data table with editable fields of object types like Contacts, Tasks, and Appointments. Reusable components required an understanding of Java generics and interfaces. Implementing ‘F extends Enum<F> in the Entity class enabled dynamic field handling, which was key to my learning of flexible code structure and streamlining integration of other object types. File-based persistence introduced additional challenges, as I had to develop an understanding of file I/O. I designed a custom CSV file I/O system for parsing files, rather than relying on external libraries, to deepen my understanding of these operations and build confidence, though it added time constraints to the project.</p>
+   <p>I encountered challenges in implementing reusable components like the TableView class, which dynamically creates a data table with editable fields of object types like Contacts, Tasks, and Appointments. Reusable components required an understanding of Java generics and interfaces. Implementing ‘F extends Enum&gt;<F&lt;> in the Entity class enabled dynamic field handling, which was key to my learning of flexible code structure and streamlining integration of other object types. File-based persistence introduced additional challenges, as I had to develop an understanding of file I/O. I designed a custom CSV file I/O system for parsing files, rather than relying on external libraries, to deepen my understanding of these operations and build confidence, though it added time constraints to the project.</p>
 
    <p>Throughout development, time management was a recurring challenge. Each challenge provided significant time constraints that I could not fully accommodate, so despite completing core functionalities, I could not implement the advanced features I planned, like CSS styling and unit tests for GUI components. I also have additions to make to the functionality of the appointment management screen and user-facing error messages. Seeking guidance from online communities revealed strongly held conflicting opinions, emphasizing the need to critically evaluate advice in a timely manner. Going forward, especially when faced with time constraints, I will be sure to focus on time-efficient coding by using additional libraries for common utilities like CSV file parsing, input validation and sanitization, ID generation, etc.</p> 
 </details>
