@@ -50,7 +50,7 @@ Prior to building my enhancements, I conducted a detailed code review of the ori
 
 A **Java-based** system for managing contacts, tasks, and appointments. It began as a CRUD codebase with JUnit tests for managing Appointment, Task, and Contact objects. The original artifact lacked usability, so I used it as an opportunity to make two enhancements showcasing software engineering/design and data structures/algorithms skills.
 
-** Enhancements:**
+**Enhancements:**
 
 1. **GUI Enhancement** (Software Engineering/Design)  
    - Added a JavaFX interface for intuitive user interaction  
@@ -69,7 +69,7 @@ A **Java-based** system for managing contacts, tasks, and appointments. It began
 
 An **Android mobile application** for managing inventory items. The original artifact stored user credentials and inventory data locally using SQLite, and handled user authentication and SMS alerts for items reaching zero stock. To address security exploit concerns and improve practicality of the app, I transitioned from SQLite to a cloud-based NoSQL solution. 
 
-** Enhancements:**
+**Enhancements:**
 - **Firebase Integration** (Databases)  
   - Migrated from local SQLite to **Firebase Realtime Database**  
   - Incorporated secure user authentication, hashed credentials, and real-time sync  
