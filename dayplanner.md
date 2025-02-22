@@ -14,7 +14,7 @@ For **CS320 – Software Testing, Automation, and QA**, I learned software testi
 
 - **CRUD operations** for each object type, with each object having a unique ID 
 - **Validation Requirements** to ensure data integrity (minimum/maximum number of characters, non-null, no whitespace)  
-- **Extensive JUnit Testing** 120 JUnit tests were coded to minimize defects, following test-driven development practices and using strategies such as equivalance partitioning, boundary value analysis, and statement/decision testing
+- **Extensive JUnit Testing**: 120 JUnit tests were coded to minimize defects, following test-driven development practices and using strategies such as equivalence partitioning, boundary value analysis, and statement/decision testing
 
 ## Enhancements
 Below are two enhancements I made to the original artifact. Each section can be expanded to read a **detailed narrative** of what was changed and why.
@@ -28,7 +28,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
 
    <h4>Artifact Description</h4>
 
-   <p>The artifact I’ve enhanced is Day Planner,  a JavaFX GUI application created from modifications to an original project made as part of my coursework for CS320: Software Testing, Automation, and QA. The original project was a basic service management system for different object types–Contact, Task, and Appointment with Cread, Read, Update, and Delete operations with input validation based on object attribute constraints. It also included extensive JUnit testing with 120 tests to ensure the reliability of its functionality. 
+   <p>The artifact I’ve enhanced is <i>Day Planner</i>, a JavaFX GUI application created from modifications to an original project made as part of my coursework for CS320: Software Testing, Automation, and QA. The original project was a basic service management system for different object types–<code>Contact</code>, <code>Task</code>, and <code>Appointment</code> with Create, Read, Update, and Delete operations with input validation based on object attribute constraints. It also included extensive JUnit testing with 120 tests to ensure the reliability of its functionality. 
    My enhancement transforms the original project into a fully functional user-facing application by adding a GUI built with JavaFX that allows users to interact with the system. This GUI includes separated screens for managing Contacts, Tasks, and Appointments, featuring editable data tables and persistent data storage through CSV files, improving the system’s usability and testing capabilities.</p>
 
    <h4>Justification of Enhancements</h4>
@@ -51,7 +51,10 @@ Below are two enhancements I made to the original artifact. Each section can be 
 
    <h4>Enhancement Process Reflection</h4>
 
-   <p>Enhancing this project was a very challenging process that I began by planning my enhancements to improve user interaction and system scalability. First, in designing the architecture for the JavaFX application, I structured it into module components with individual view and controller classes for each major screen and screen component. Learning to effectively separate UI logic from backend service was initially challenging. However, through research and development, I learned to delegate UI responsibilities to View classes and business logic to Controller classes, separating frontend and backend to create a maintainable architecture.</p>
+   <p>
+      Enhancing this project was a very challenging process that I began by planning my enhancements to improve user interaction and system scalability. First, in designing the architecture for the JavaFX application, I structured it into module components with individual view and controller classes for each major screen and screen component. Learning to effectively separate UI logic from backend service was initially challenging. However, through research and development, I learned to delegate UI responsibilities to View classes and business logic to Controller classes, separating frontend and backend to create a maintainable architecture.
+      <img src="assets/images/dayplanner-directory.jpg" alt="A screenshot of the dayplanner package structure showing separation of control and view classes" style="float: right;margin: 0 3em;width:15%;"> 
+   </p>
 
    <p>I encountered challenges in implementing reusable components like the <code>TableView</code> class, which dynamically creates a data table with editable fields specific to each object type. Reusable components required an understanding of Java generics and interfaces. Implementing '<code>F extends Enum&lt;F&gt;</code>' in the <code>Entity</code> class enabled dynamic field handling, which was key to my learning of flexible code structure and streamlining integration of other object types. File-based persistence introduced additional challenges, as I had to develop an understanding of file I/O. I designed a custom CSV file I/O system for parsing files, rather than relying on external libraries, to deepen my understanding of these operations and build confidence, though it added time constraints to the project.</p>
 
@@ -93,7 +96,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
    <p> 
       <img src="assets/images/trie-example.jpg" alt="An example of a trie representing the words Michael, Mike, and Michelle." style="float: left;margin: 0 6em;width:13%;"> 
       <b>Radix Trees to the Rescue</b> 
-      <br> Through research, I discovered that Trie structures were better suited for my use case and were designed to handle prefixes, breaking each word into character nodes where the hierarchical path forms a word. The figure on the left, generated with the <a href="https://www.cs.usfca.edu/~galles/visualization/Trie.html" target="_blank">USFCA Trie Visualizer</a>, sFhows this structure. Searching “Mi,” we locate the “I” node and descendant paths are valid matches (“MIKE,” “MICHAEL,” and “MICHELLE”). However, with potentially thousands of stored attributes and considering some fields like address contain up to 50 characters, there would be an excessive space complexity.
+      <br> Through research, I discovered that Trie structures were better suited for my use case and were designed to handle prefixes, breaking each word into character nodes where the hierarchical path forms a word. The figure on the left, generated with the <a href="https://www.cs.usfca.edu/~galles/visualization/Trie.html" target="_blank">USFCA Trie Visualizer</a>, shows this structure. Searching “Mi,” we locate the “I” node and descendant paths are valid matches (“MIKE,” “MICHAEL,” and “MICHELLE”). However, with potentially thousands of stored attributes and considering some fields like address contain up to 50 characters, there would be an excessive space complexity.
    </p>
    <p>A Compact Trie (Radix Tree) improves on this by merging common prefixes into single nodes, significantly decreasing the space overhead, though implementation is more complex.</p>
    <div style="clear: both;"></div>
