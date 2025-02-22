@@ -39,11 +39,11 @@ Below is the enhancement I made to the original artifact. This section can be ex
    <ul>
       <li>
         <b>Firebase Realtime Database</b> - A secure cloud-based NoSQL storage solution that stores each user’s settings and uses rules to allow users to manage an inventory of items.
-        <br><img src="assets/images/inventorytracker-auth.jpg" alt="Firebase Authentication Integration Console" width="500px"/>
+        <br><img src="assets/images/inventorytracker-auth.jpg" alt="Firebase Authentication Integration Console" width="750px"/>
       </li>
       <li>
         <b>Firebase Authentication</b> - Provides safe user authentication handling sign-in, sign-up, and secure sessions with automatic password hashing and issuing tokens.
-        <br><img src="assets/images/inventorytracker-firebaseRTDB.jpg" alt="Firebase Realtime Database Integration Console" width="500px"/>
+        <br><img src="assets/images/inventorytracker-firebaseRTDB.jpg" alt="Firebase Realtime Database Integration Console" width="750px"/>
       </li>
       <li><b>Improved project structure</b> - The original <code>InventoryDatabase</code> class was a monolith of responsibilities. It was split into <code>InventoryDatabase</code>/<code>UserDatabase</code> (data CRUD), <code>InputSanitizer</code> (secure input), and <code>AlertSender</code> (SMS logic) for modularity and readability. Similarly, <code>AuthManager</code> was split from <code>LoginActivity</code>.</li>
    </ul>
@@ -70,6 +70,7 @@ Below is the enhancement I made to the original artifact. This section can be ex
    <p>My original <code>InventoryDatabase</code> implementation used <em>synchronous</em> SQLite queries where methods like <code>getItem()</code> can return an item immediately, however, Firebase querying relies on <em>asynchronous</em> calls instead. I initially aimed to modify only the internal CRUD implementations of the <code>InventoryDatabase</code> class to allow the app to function the same without updating other classes, so I tried to keep the same synchronous return approach, but because the external classes calling <code>getItem()</code> or other methods expect a result instantly, this caused bugs in the code returning empty or null data before Firebase finished retrieving results. I realized I had to embrace Firebase’s asynchronous <code>.get()</code> and <code>.setValue()</code> calls by using callbacks to properly handle the data only after it arrives. This required rewriting many CRUD methods to accept callback interfaces, which meant that external classes for viewing and modifying the inventory (<code>NotificationsFragment</code>, <code>ItemFragment</code>, and <code>InventoryFragment</code>) had to be modified to pass callback implementations to the <code>InventoryDatabase</code> methods that handle callback results, ensuring the related UI components are updated only after a query or update is finished.</p>
 
    <p>A concern I had with the real-time database was the security of users being able to interact with the database, so I also utilized the database rules in the Firebase console.</p>
+
    <pre>
     {  "rules": {
       ".read": "auth != null", // authenticated users only can read/write
@@ -82,7 +83,9 @@ Below is the enhancement I made to the original artifact. This section can be ex
             ".indexOn": ["name", "quantity"]
     }}}}}
    </pre>
+
    <p>Defining the rules like above ensures that only authenticated users can read/write to the database and that users can only access their own data that correlates with their unique identifier.</p>
+
    <p>Thanks to these additions, this project demonstrates my software development skills in cloud database management, mobile app design, secure programming, and refactoring, which I will continue to improve and apply in future software development projects.</p>
 
 </details>
