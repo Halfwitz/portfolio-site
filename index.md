@@ -87,7 +87,7 @@ Beyond my capstone enhancements, I’ve built and contributed to various other p
   
   Developed a data analytics dashboard that integrates with MongoDB. Users can filter, visualize, and map entries from the Austin Animal Center dataset. Employed PyMongo for database operations and Dash for real-time interactive charts and maps.
   <br>
-  <img src="assets/images/aac-dashboard.jpg" alt="Web based dashboard displaying database entries with filters widgets" width="80%"/>
+  <img src="assets/images/aac-dashboard.jpg" alt="Web based dashboard displaying database entries with filters widgets" width="90%"/>
 
 
 - **[AI Maze Solver using Deep Q-Learning](https://github.com/Halfwitz/CS370-Qlearning-Maze-Pathfinder)** (Python, TensorFlow, Keras) 
