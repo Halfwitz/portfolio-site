@@ -11,12 +11,13 @@ is-inventorytracker: true
 ## Original Artifact Description
 For **CS360 – Mobile Architect & Programming**, the goal was to develop an **inventory management mobile application** that meets real-world use cases for warehouse associates. The application:
 - Allowed users to register and log in
-   <img src="assets/images/inventorytracker-login.jpg" alt="Invetory Tracker Login Screen" width="200px"/>
+<br><img src="assets/images/inventorytracker-login.jpg" alt="Invetory Tracker Login Screen" width="200px"/>
 - Stored and modified item details (name, description, quantity, and UPC)
-  <img src="assets/images/inventorytracker-inventory.jpg" alt="Inventory Tracker Inventory Screen" width="200px"/>
-  <img src="assets/images/inventorytracker-edititem.jpg" alt="Inventory Tracker Edit Item Screen" width="200px"/>
+<br>
+<img src="assets/images/inventorytracker-inventory.jpg" alt="Inventory Tracker Inventory Screen" width="200px"/>
+<img src="assets/images/inventorytracker-edititem.jpg" alt="Inventory Tracker Edit Item Screen" width="200px"/>
 - Sent SMS alerts when items reached zero stock
-   <img src="assets/images/inventorytracker-SMSalert.jpg" alt="Firebase Authentication Integration Console" width="150px"/>
+<br><img src="assets/images/inventorytracker-SMSalert.jpg" alt="Firebase Authentication Integration Console" width="150px"/>
 
 Originally, this artifact used a local **SQLite** database for user credentials and inventory data. While functional, storing passwords in plain text posed security risks, and local storage restricted multi-device usage. Despite these limitations, it aligned with **Database** concepts by illustrating how an internal SQL database integrates with an Android app.
 
@@ -85,11 +86,5 @@ Below is the enhancement I made to the original artifact. This section can be ex
 ---
 
 <a href="/portfolio-site" class="btn-dark"> Return to Portfolio Home </a>
-<a href="https://github.com/Halfwitz/CS320-JUnit-Project" class="btn-dark" target="_blank"> Original GitHub Repository </a>
+<a href="https://github.com/Halfwitz/CS360-Inventory-Tracker-Android" class="btn-dark" target="_blank"> Original GitHub Repository </a>
 <a href="https://github.com/Halfwitz/DayPlanner" class="btn-dark" target="_blank"> Enhanced GitHub Repository </a>
-
-
-
-
-  [Inventory Tracker Repository](https://github.com/Halfwitz/CS360-Inventory-Tracker-Android)  
-  [Enhancement Narrative](https://docs.google.com/document/d/1O3v66INRr9tlwLYJGXr4ErvUq-r3DzebGuD4ET7MbEA/edit?usp=sharing)
