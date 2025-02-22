@@ -89,34 +89,39 @@ Below are two enhancements I made to the original artifact. Each section can be 
    <b>Challenges in Implementing a Radix Tree</b>
 
    <p>Handling object storage and field associations was a challenge because multiple objects can have the same attribute value, one object can have duplicate attributes across fields, and searches can be field-specific. To address this, I ensured each word-end node (representing full attributes, the green nodes in the figure) stores a map of fields to all associated objects.</p>
-
-   <b>Object Insertion</b>
-   <p>To insert an object into the trie, every attribute is inserted. I’ve developed the algorithm to:</p>
-   <ol>
-      <li>Start at the root and traverse nodes matching portions of the attribute until the following</li>
-      <li>If an exact match is found, the object is added to that node’s data</li>
-      <li>If a node partially matches the attribute, it is split at the shared portion (when inserting “Michelle” when “Michael” exists, it is split into “Mich” with “ael” and “elle” as children.)</li>
-      <li>If no further match exists, a new child is created, storing the remainder of the attribute</li>
-   </ol>
-   <p>Following this algorithm, the average to worst-case insertion is <i>O(k)</i> time complexity, where k is the length of the attribute. I faced challenges implementing the node splitting, leading to loops in the node pointers due to new nodes pointing back at themselves, but through extensive debug print statements to track insertions, I resolved this issue.</p>
-
-   <b>Object Deletion</b>
-   <p>Each attribute of an object is deleted from the Radix Tree using the following process:</p>
-   <ol>
-      <li>Recursively traverse the trie until the word-end for the attribute is found</li>
-      <li>Remove the object from the field data. If the node still has data, it remains. If the node has no data but a single child, merge the child with the node. If there are no nodes or children, it is deleted</li>
-      <li>If the node should be deleted, remove its reference from its parent node. If the parent now has only one child, merge that child with the parent.</li> 
-   </ol>
-   <p>Node deletion also has a worst-case <i>O(k)</i> time complexity due to only having to traverse each character of the word if each character is a node. This method was the most difficult to implement due to challenges such as keeping a parent node reference when merging when necessary. Implementing this function recursively was the most understandable way of passing references. </p>
-
-   <b>Prefix Search Implementation</b>
-   <p>The goal of creating this data structure, a prefix search algorithm, was the most simplistic to implement, using the following process:</p>
-   <ol>
-      <li>Traverse until the first node that represents the prefix being searched is found.</li>
-      <li>Traverse all of that node’s descendants using a DFS algorithm, storing all objects</li>
-      <li>Return the results as a set of objects.</li>
-   </ol>
-   <p>The prefix search also has an efficient lookup time complexity of <i>O(k + m)</i>, where m is the number of results starting with the prefix.</p> 
+   <ul>
+      <li>
+         <b>Object Insertion</b>
+         <p>To insert an object into the trie, every attribute is inserted. I’ve developed the algorithm to:</p>
+         <ol>
+            <li>Start at the root and traverse nodes matching portions of the attribute until the following</li>
+            <li>If an exact match is found, the object is added to that node’s data</li>
+            <li>If a node partially matches the attribute, it is split at the shared portion (when inserting “Michelle” when “Michael” exists, it is split into “Mich” with “ael” and “elle” as children.)</li>
+            <li>If no further match exists, a new child is created, storing the remainder of the attribute</li>
+         </ol>
+         <p>Following this algorithm, the average to worst-case insertion is <i>O(k)</i> time complexity, where k is the length of the attribute. I faced challenges implementing the node splitting, leading to loops in the node pointers due to new nodes pointing back at themselves, but through extensive debug print statements to track insertions, I resolved this issue.</p>
+      </li>
+      <li>
+         <b>Object Deletion</b>
+         <p>Each attribute of an object is deleted from the Radix Tree using the following process:</p>
+         <ol>
+            <li>Recursively traverse the trie until the word-end for the attribute is found</li>
+            <li>Remove the object from the field data. If the node still has data, it remains. If the node has no data but a single child, merge the child with the node. If there are no nodes or children, it is deleted</li>
+            <li>If the node should be deleted, remove its reference from its parent node. If the parent now has only one child, merge that child with the parent.</li> 
+         </ol>
+         <p>Node deletion also has a worst-case <i>O(k)</i> time complexity due to only having to traverse each character of the word if each character is a node. This method was the most difficult to implement due to challenges such as keeping a parent node reference when merging when necessary. Implementing this function recursively was the most understandable way of passing references. </p>
+      </li>
+      <li>
+         <b>Prefix Search Implementation</b>
+         <p>The goal of creating this data structure, a prefix search algorithm, was the most simplistic to implement, using the following process:</p>
+         <ol>
+            <li>Traverse until the first node that represents the prefix being searched is found.</li>
+            <li>Traverse all of that node’s descendants using a DFS algorithm, storing all objects</li>
+            <li>Return the results as a set of objects.</li>
+         </ol>
+         <p>The prefix search also has an efficient lookup time complexity of <i>O(k + m)</i>, where m is the number of results starting with the prefix.</p>
+      </li>
+   </ul> 
    <p>While Binary Search Trees are generally more efficient in time and space, exploring and implementing Compact Tries was a beneficial experience in my understanding of the trade-offs and benefits of different data structures, such as the benefit of prefix-based searches. By choosing Radix trees over standard trees, many of these operations are likely to run much faster with a best-case <i>O(1)</i> time complexity due to the compression of nodes. Overall, I was glad to acquire knowledge of such data structures, ultimately providing a deeper understanding of algorithmic problem-solving and data structure implementation.</p>
 </details>
 
