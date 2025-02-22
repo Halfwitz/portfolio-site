@@ -11,13 +11,13 @@ is-inventorytracker: true
 ## Original Artifact Description
 For **CS360 – Mobile Architect & Programming**, the goal was to develop an **inventory management mobile application** that meets real-world use cases for warehouse associates. The application:
 - Allowed users to register and log in
-<br><img src="assets/images/inventorytracker-login.jpg" alt="Invetory Tracker Login Screen" width="200px"/>
+<br><img src="assets/images/inventorytracker-login.jpg" alt="Invetory Tracker Login Screen" width="300px"/>
 - Stored and modified item details (name, description, quantity, and UPC)
 <br>
-<img src="assets/images/inventorytracker-inventory.jpg" alt="Inventory Tracker Inventory Screen" width="200px"/>
-<img src="assets/images/inventorytracker-edititem.jpg" alt="Inventory Tracker Edit Item Screen" width="200px"/>
+<img src="assets/images/inventorytracker-inventory.jpg" alt="Inventory Tracker Inventory Screen" width="300px"/>
+<img src="assets/images/inventorytracker-edititem.jpg" alt="Inventory Tracker Edit Item Screen" width="300px"/>
 - Sent SMS alerts when items reached zero stock
-<br><img src="assets/images/inventorytracker-SMSalert.jpg" alt="Firebase Authentication Integration Console" width="150px"/>
+<br><img src="assets/images/inventorytracker-SMSalert.jpg" alt="Firebase Authentication Integration Console" width="300px"/>
 
 Originally, this artifact used a local **SQLite** database for user credentials and inventory data. While functional, storing passwords in plain text posed security risks, and local storage restricted multi-device usage. Despite these limitations, it aligned with **Database** concepts by illustrating how an internal SQL database integrates with an Android app.
 
