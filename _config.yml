@@ -14,5 +14,5 @@ navbar-links:
   github-url: https://github.com/Halfwitz
 
 is-home: false
-is-dayplanner: false
+is-dayplanner: true
 is-inventorytracker: false
