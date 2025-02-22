@@ -21,7 +21,7 @@ For **CS320 – Software Testing, Automation, and QA**, I learned software testi
 Below are two enhancements I made to the original artifact. Each section can be expanded to read a **detailed narrative** of what was changed and why.
 <hr>
 <details>
-   <summary><h3> style="display:inline">Enhancement One Narrative – JavaFX GUI</h3></summary>
+   <summary><h3 style="display:inline">Enhancement One Narrative – JavaFX GUI</h3></summary>
    <h4>Artifact Description</h4>
 
    <p>The artifact I’ve enhanced is Day Planner,  a JavaFX GUI application created from modifications to an original project made as part of my coursework for CS320: Software Testing, Automation, and QA. The original project was a basic service management system for different object types–Contact, Task, and Appointment with Cread, Read, Update, and Delete operations with input validation based on object attribute constraints. It also included extensive JUnit testing with 120 tests to ensure the reliability of its functionality. 
@@ -55,7 +55,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
 </details>
 <hr>
 <details>
-   <summary> <h3> style="display:inline">Enhancement Two Narrative – Radix Trie Search</h3> </summary>
+   <summary> <h3 style="display:inline">Enhancement Two Narrative – Radix Trie Search</h3> </summary>
    <h4>Artifact Description</h4>
 
    <p>For the second enhancement, I’ve extended the object lookup capabilities of the service classes to enable efficient searches by any attribute such as firstName, lastName, phone, or address for contact, using a prefix search algorithm that can return all results that start with the specified prefix. To achieve this, the service class uses a custom Radix tree (also compact trie) data structure, which efficiently indexes object attributes for optimized searching with prefix-based retrieval.</p>
