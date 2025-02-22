@@ -16,6 +16,8 @@ is-home: true
 3. [More of My Work](#more-of-my-work)
 4. [Get in Touch](#get-in-touch)
 
+---
+
 ## **Professional Self-Assessment**
 
 My name is Michael Lorenz, and I am completing my Bachelor of Science in Computer Science this May. Throughout my coursework, I have focused on projects that highlight my strengths in software design, data structures and algorithms, and database management. My intention is to illustrate the culmination of my learning experiences with this portfolio, to demonstrate my capabilities to potential employers.
