@@ -41,7 +41,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
 
    <h4>Course Outcomes Achieved</h4>
 
-   <p>I’ve developed the enhancement with the intention to meet the course outcomes outlined in this capstone course. 
+   <p>I’ve developed the enhancement with the intention to meet the course outcomes outlined in this capstone course.</p> 
 
    <ul>
       <li>
