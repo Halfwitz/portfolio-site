@@ -52,7 +52,7 @@ In my final Capstone course, I selected two of my original source-code artifacts
 
 Prior to building my enhancements, I conducted a detailed code review of the original artifacts. In this **42-minute walkthrough**, I analyze the existing code, identify weaknesses, and plan enhancements to improve usability, efficiency, and security:
 
-<iframe width="835" height="480" src="https://www.youtube.com/embed/MY6DrOzxTb0" title="Code Review - Michael Lorenz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/MY6DrOzxTb0" title="Code Review - Michael Lorenz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *(42 Minutes, recorded Jan. 19, 2025)*
 
