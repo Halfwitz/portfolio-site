@@ -27,12 +27,12 @@ Below is the enhancement I made to the original artifact. This section can be ex
 ---
 
 <details>
-   <summary> <h3>Enhancement Narrative – Firebase Authentication & Realtime Database</h3> </summary>
+   <summary> <h3>Enhancement Narrative – Firebase Authentication &amp; Realtime Database</h3> </summary>
    <br>
 
    <h4>Artifact Description</h4>
 
-   <p>This Inventory Management Mobile Application, <i>Inventory Tracker</i>, began as a course project in <b>CS360 Mobile Architect & Programming</b>, where I was tasked with creating an Android app that stores and manages data in an SQLite database. The original artifact focused on warehouse management use cases, allowing employees to log in, manage product inventory (with name, description, quantity, and UPC attributes), and receive SMS notifications when items are out of stock. However, the original artifact contained a naively implemented local database for storing user credentials and inventory items, which posed security and usability issues (each user shared the same database that could only be logged into/viewed on one device). </p>
+   <p>This inventory management mobile application, <i>Inventory Tracker</i>, began as a course project in <b>CS360 Mobile Architect & Programming</b>, where I was tasked with creating an Android app that stores and manages data in an SQLite database. The original artifact focused on warehouse management use cases, allowing employees to log in, manage product inventory (with name, description, quantity, and UPC attributes), and receive SMS notifications when items are out of stock. However, the original artifact contained a naively implemented local database for storing user credentials and inventory items, which posed security and usability issues (each user shared the same database that could only be logged into/viewed on one device). </p>
 
    <p>In my enhancement, I replaced the local SQLite implementation with Google Firebase Authentication and Realtime Database services to improve security by removing plain-text credentials from local storage and fixing an authentication bypass exploit. Specifically, the enhancement incorporates:</p> 
 
