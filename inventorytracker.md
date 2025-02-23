@@ -16,7 +16,7 @@ For **CS360 – Mobile Architect & Programming**, the goal was to develop an **i
 <br>
 <img src="assets/images/inventorytracker-inventory.jpg" alt="Inventory Tracker Inventory Screen" width="35%"/>
 <img src="assets/images/inventorytracker-edititem.jpg" alt="Inventory Tracker Edit Item Screen" width="35%"/>
-- Sent SMS alerts when items reached zero stock
+- Sent SMS alerts when items reach zero stock
 <br><img src="assets/images/inventorytracker-SMSalert.jpg" alt="Firebase Authentication Integration Console" width="40%"/>
 
 Originally, this artifact used a local **SQLite** database for user credentials and inventory data. While functional, storing passwords in plain text posed security risks, and local storage restricted multi-device usage. Despite these limitations, it aligned with **Database** concepts by illustrating how an internal SQL database integrates with an Android app.
