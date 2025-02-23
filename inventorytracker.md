@@ -57,10 +57,18 @@ Below is the enhancement I made to the original artifact. This section can be ex
    <p> I’ve developed the enhancement to meet the course outcomes outlined in this capstone course.</p> 
 
    <ul>
-      <li><b>Building Collaborative Environments</b> - Hosting the project on GitHub supports a collaborative workflow, and code documentation and inline comments encourage contributions or reviews.</li>
-      <li><b>Designing and Evaluating Computing Solutions</b> - In planning the enhancement, I had to evaluate the trade-offs between the simpler local SQLite database, which was easier to implement but less secure, and a more secure cloud-based approach with Firebase. I addressed the security concerns by choosing Firebase and designing a structured NoSQL database.</li>
-      <li><b>Utilizing Innovative Techniques and Tools</b> - Developing user authentication systems with secure credentials and token-based authorization or secure cloud-based databases from scratch is challenging, by adopting Firebase Realtime Database and Authentication, I demonstrate the ability to use modern cloud tools to implement these features efficiently. Refactoring to separate concerns into separate classes/methods also reflects industry-standard design techniques.</li>
-      <li><b>Develop a Security Mindset</b> - I’ve identified and remedied vulnerabilities such as plain-text credentials, shared inventories, and insecure session handling using Firebase with rules-based access and password hashing to improve data privacy and address potential exploits. I’ve also implemented input validation for all input entering the database, preventing malformed data.</li>
+      <li>
+        <b>Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science</b>
+        <br>Hosting the project on GitHub supports a collaborative workflow, and code documentation and inline comments encourage contributions or reviews.</li>
+      <li>
+        <b>Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices</b>
+        <br>In planning the enhancement, I had to evaluate the trade-offs between the simpler local SQLite database, which was easier to implement but less secure, and a more secure cloud-based approach with Firebase. I addressed the security concerns by choosing Firebase and designing a structured NoSQL database.</li>
+      <li>
+        <b>Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals</b>
+        <br>Developing user authentication systems with secure credentials and token-based authorization or secure cloud-based databases from scratch is challenging, by adopting Firebase Realtime Database and Authentication, I demonstrate the ability to use modern cloud tools to implement these features efficiently. Refactoring to separate concerns into separate classes/methods also reflects industry-standard design techniques.</li>
+      <li>
+        <b>Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources</b>
+        <br>I’ve identified and remedied vulnerabilities such as plain-text credentials, shared inventories, and insecure session handling using Firebase with rules-based access and password hashing to improve data privacy and address potential exploits. I’ve also implemented input validation for all input entering the database, preventing malformed data.</li>
    </ul>
 
    <h4>Enhancement Process Reflection</h4>

@@ -44,10 +44,18 @@ Below are two enhancements I made to the original artifact. Each section can be 
    <p>I’ve developed the enhancement with the intention to meet the course outcomes outlined in this capstone course. 
 
    <ul>
-     <li><b>Building Collaborative Environments</b> - The project’s code includes detailed documentation through JavaDoc comments, and the code is hosted on GitHub to enable contributors to make decisions and contributions regarding the project. Extensive modularity and readable code further encourage future collaboration.</p></li>
-     <li><b>Professional Communication</b> - Documentation provides clear communication for technical users reading the code. Additionally,I've included audience-friendly communication in the GUI, including descriptive error messages for invalid input or additional navigation headers and messages.</li>
-     <li><b>Designing and Evaluating Computing Solutions</b> - The project balances trade-offs between performance and persistence by using memory-based storage for speed during runtime and file-based storage for data persistence, demonstrating an understanding of computing solution standards and involved trade-offs.</li>
-     <li><b>Utilizing Innovative Techniques and Tools</b> - Industry standard tools like JavaFX for UI development and Java library classes like <code>BufferedReader</code> and <code>BufferedWriter</code> for file handling are utilized to implement the enhancement and efficiently add value to this project.</li>
+     <li>
+      <b>Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science</b>
+      <br>The project’s code includes detailed documentation through JavaDoc comments, and the code is hosted on GitHub to enable contributors to make decisions and contributions regarding the project. Extensive modularity and readable code further encourage future collaboration.</p></li>
+     <li>
+      <b>Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science</b>
+      <br>Documentation provides clear communication for technical users reading the code. Additionally,I've included audience-friendly communication in the GUI, including descriptive error messages for invalid input or additional navigation headers and messages.</li>
+     <li>
+      <b>Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices</b>
+      <br>The project balances trade-offs between performance and persistence by using memory-based storage for speed during runtime and file-based storage for data persistence, demonstrating an understanding of computing solution standards and involved trade-offs.</li>
+     <li>
+      <b>Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals</b>
+      <br>Industry standard tools like JavaFX for UI development and Java library classes like <code>BufferedReader</code> and <code>BufferedWriter</code> for file handling are utilized to implement the enhancement and efficiently add value to this project.</li>
    </ul>
 
    <h4>Enhancement Process Reflection</h4>
@@ -83,10 +91,22 @@ Below are two enhancements I made to the original artifact. Each section can be 
    <h4>Course Outcomes Achieved</h4>
    <p> I’ve developed the enhancement to meet the course outcomes outlined in this capstone course.</p> 
    <ul>
-      <li><b>Building Collaborative Environments</b> - The project, hosted on Github to allow future contributors to review and improve the code, also features comprehensive Javadoc documentation and inline comments for all classes and methods, ensuring future readability and clarity for others and myself.  This enhancement builds upon previous documentation by including documentation in the <code>CompactTrie</code> and <code>SearchView</code> classes.</li>
-      <li><b>Professional Communication</b> - Updated documentation throughout the enhancement explains the process to achieve a specific goal and the improvements made. Improvements made to the GUI’s style and labeling communicate to the user not only the new search functionality, but also any important error messages regarding invalid input that need to be addressed with red outlining or text for invalid fields. </li>
-      <li><b>Designing and Evaluating Computing Solutions</b> - The original <code>HashMap</code> retrieval is limited to average constant <i>O(1)</i> lookups. It cannot be used to look up an object's other attributes without creating a new <code>HashMap</code> with entries for each attribute. Throughout development, I’ve analyzed trade-offs of other data structures until selecting the Radix Tree data structure, with a search complexity of <i>O(k)</i>, where <i>k</i> is the search key's length. </li>
-      <li><b>Utilizing Innovative Techniques and Tools</b> - Trie data structures and compact tries (Radix tree) are innovative data structure techniques that are commonly implemented in computing due to prefix-based searches for applications like text autocompletion, file path navigation, IP routing, and so on. I’ve utilized these data structures in my application for the same benefits of efficient prefix lookup.</li>
+      <li>
+         <b>Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science</b>
+         <br>The project, hosted on Github to allow future contributors to review and improve the code, also features comprehensive Javadoc documentation and inline comments for all classes and methods, ensuring future readability and clarity for others and myself. This enhancement builds upon previous documentation by including documentation in the <code>CompactTrie</code> and <code>SearchView</code> classes.
+      </li>
+      <li>
+         <b>Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts</b>
+         <br>Updated documentation throughout the enhancement explains the process to achieve a specific goal and the improvements made. Improvements made to the GUI’s style and labeling communicate to the user not only the new search functionality, but also any important error messages regarding invalid input that need to be addressed with red outlining or text for invalid fields.
+      </li>
+      <li>
+         <b>Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices</b> 
+         <br>The original <code>HashMap</code> retrieval is limited to average constant <i>O(1)</i> lookups. It cannot be used to look up an object's other attributes without creating a new <code>HashMap</code> with entries for each attribute. Throughout development, I’ve analyzed trade-offs of other data structures until selecting the Radix Tree data structure, with a search complexity of <i>O(k)</i>, where <i>k</i> is the search key's length.
+      </li>
+      <li>
+         <b>Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals</b>
+         <br> Trie data structures and compact tries (Radix tree) are innovative data structure techniques that are commonly implemented in computing due to prefix-based searches for applications like text autocompletion, file path navigation, IP routing, and so on. I’ve utilized these data structures in my application for the same benefits of efficient prefix lookup.
+      </li>
    </ul>
 
    <h4 id="enhancement-process-reflection">Enhancement Process Reflection</h4>
