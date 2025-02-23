@@ -62,7 +62,7 @@ Prior to building my enhancements, I conducted a detailed code review of the ori
 <br>
 <img src="assets/images/dayplanner-contacts-prefixsearch.jpg" alt="Day Planner Contacts Screen Search Results for 'Mi' Prefix" width="60%"/>
 
-A **Java-based** system for managing contacts, tasks, and appointments--It began as a CRUD codebase with JUnit tests for managing Appointment, Task, and Contact objects. The original artifact lacked usability, so I used it as an opportunity to make two enhancements showcasing software engineering/design and data structures/algorithms skills.
+A **Java-based** system for managing contacts, tasks, and appointments--It began as a CRUD codebase with JUnit tests for managing <code>Appointment</code>, <code>Task</code>, and <code>Contact</code> objects. The original artifact lacked usability, so I used it as an opportunity to make two enhancements showcasing software engineering/design and data structures/algorithms skills.
 
 **Enhancements:**
 
