@@ -60,7 +60,7 @@ Prior to building my enhancements, I conducted a detailed code review of the ori
 
 ### **Day Planner** (Java, JUnit, Maven, JavaFX)
 <br>
-<img src="assets/images/dayplanner-contacts-prefixsearch.jpg" alt="Day Planner Contacts Screen Search Results for 'Mi' Prefix" width="50%"/>
+<img src="assets/images/dayplanner-contacts-prefixsearch.jpg" alt="Day Planner Contacts Screen Search Results for 'Mi' Prefix" width="60%"/>
 
 A **Java-based** system for managing contacts, tasks, and appointments--It began as a CRUD codebase with JUnit tests for managing Appointment, Task, and Contact objects. The original artifact lacked usability, so I used it as an opportunity to make two enhancements showcasing software engineering/design and data structures/algorithms skills.
 
