@@ -59,6 +59,8 @@ Prior to building my enhancements, I conducted a detailed code review of the ori
 ---
 
 ### **Day Planner** (Java, JUnit, Maven, JavaFX)
+<br>
+<img src="assets/images/dayplanner-contacts-prefixsearch.jpg" alt="Day Planner Contacts Screen Search Results for 'Mi' Prefix" width="50%"/>
 
 A **Java-based** system for managing contacts, tasks, and appointments--It began as a CRUD codebase with JUnit tests for managing Appointment, Task, and Contact objects. The original artifact lacked usability, so I used it as an opportunity to make two enhancements showcasing software engineering/design and data structures/algorithms skills.
 
@@ -79,6 +81,10 @@ A **Java-based** system for managing contacts, tasks, and appointments--It began
 
 ### **Inventory Tracker** (Android Studio, Java, Firebase, NoSQL)
 
+<br>
+<img src="assets/images/inventorytracker-login.jpg" alt="Inventory Tracker Login Screen" width="33%"/>
+<img src="assets/images/inventorytracker-inventory.jpg" alt="Inventory Tracker Inventory Screen" width="33%"/>
+<img src="assets/images/inventorytracker-edititem.jpg" alt="Inventory Tracker Edit Item Screen" width="33%"/>
 An **Android mobile application** for managing inventory items--The original artifact stored user credentials and inventory data locally using SQLite, and handled user authentication and SMS alerts for items reaching zero stock. To address security exploit concerns and improve practicality of the app, I transitioned from SQLite to a cloud-based NoSQL solution. 
 
 **Enhancements:**
