@@ -46,7 +46,7 @@ Below are two enhancements I made to the original artifact. Each section can be 
    <ul>
       <li>
          <b>Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science</b>
-         <br>The project’s code includes detailed documentation through JavaDoc comments, and the code is hosted on GitHub to enable contributors to make decisions and contributions regarding the project. Extensive modularity and readable code further encourage future collaboration.</p>
+         <br>The project’s code includes detailed documentation through JavaDoc comments, and the code is hosted on GitHub to enable contributors to make decisions and contributions regarding the project. Extensive modularity and readable code further encourage future collaboration.
       </li>
       <li>
          <b>Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science</b>
