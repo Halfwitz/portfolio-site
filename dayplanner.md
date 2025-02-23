@@ -23,8 +23,8 @@ Below are two enhancements I made to the original artifact. Each section can be 
 
 <details>
    <summary><h3 style="display:inline">Enhancement One Narrative – JavaFX GUI</h3></summary>
-   <br>
-   <img src="assets/images/dayplanner-contacts.jpg" alt="Day Planner Contacts Screen with Editable Fields for Each Attribute" width="80%"/>
+
+   <br><img src="assets/images/dayplanner-contacts.jpg" alt="Day Planner Contacts Screen with Editable Fields for Each Attribute" width="80%"/>
 
    <h4>Artifact Description</h4>
 
@@ -44,18 +44,22 @@ Below are two enhancements I made to the original artifact. Each section can be 
    <p>I’ve developed the enhancement with the intention to meet the course outcomes outlined in this capstone course. 
 
    <ul>
-     <li>
-      <b>Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science</b>
-      <br>The project’s code includes detailed documentation through JavaDoc comments, and the code is hosted on GitHub to enable contributors to make decisions and contributions regarding the project. Extensive modularity and readable code further encourage future collaboration.</p></li>
-     <li>
-      <b>Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science</b>
-      <br>Documentation provides clear communication for technical users reading the code. Additionally,I've included audience-friendly communication in the GUI, including descriptive error messages for invalid input or additional navigation headers and messages.</li>
-     <li>
-      <b>Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices</b>
-      <br>The project balances trade-offs between performance and persistence by using memory-based storage for speed during runtime and file-based storage for data persistence, demonstrating an understanding of computing solution standards and involved trade-offs.</li>
-     <li>
-      <b>Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals</b>
-      <br>Industry standard tools like JavaFX for UI development and Java library classes like <code>BufferedReader</code> and <code>BufferedWriter</code> for file handling are utilized to implement the enhancement and efficiently add value to this project.</li>
+      <li>
+         <b>Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science</b>
+         <br>The project’s code includes detailed documentation through JavaDoc comments, and the code is hosted on GitHub to enable contributors to make decisions and contributions regarding the project. Extensive modularity and readable code further encourage future collaboration.</p>
+      </li>
+      <li>
+         <b>Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science</b>
+         <br>Documentation provides clear communication for technical users reading the code. Additionally,I've included audience-friendly communication in the GUI, including descriptive error messages for invalid input or additional navigation headers and messages.
+      </li>
+      <li>
+         <b>Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices</b>
+         <br>The project balances trade-offs between performance and persistence by using memory-based storage for speed during runtime and file-based storage for data persistence, demonstrating an understanding of computing solution standards and involved trade-offs.
+      </li>
+      <li>
+         <b>Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals</b>
+         <br>Industry standard tools like JavaFX for UI development and Java library classes like <code>BufferedReader</code> and <code>BufferedWriter</code> for file handling are utilized to implement the enhancement and efficiently add value to this project.
+      </li>
    </ul>
 
    <h4>Enhancement Process Reflection</h4>
