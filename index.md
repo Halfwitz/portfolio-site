@@ -20,27 +20,28 @@ is-home: true
 
 ## **Professional Self-Assessment**
 
-My name is Michael Lorenz, and I am completing my Bachelor of Science in Computer Science this May. Throughout my coursework, I have focused on projects that highlight my strengths in software design, data structures and algorithms, and database management. My intention is to illustrate the culmination of my learning experiences with this portfolio to demonstrate my capabilities to potential employers.
+My name is Michael Lorenz, and I am completing my Bachelor of Science in Computer Science this May. Throughout my coursework, I have focused on projects highlighting my strengths in software design, data structures and algorithms, and database management. My intention is to illustrate the culmination of my learning experiences with this portfolio to demonstrate my capabilities to potential employers.
 
 **Shaping My Skills and Goals**  
-As a developer, I am particularly intrigued by **backend and full-stack development**, an interest which has been shaped by the many core skills gained throughout development of these projects and assembling them into an ePortfolio:
+As a developer, I am particularly intrigued by **backend and full-stack development**. This interest has been shaped by the many core skills gained throughout the development of these projects and assembling them into an ePortfolio:
 - **Collaborating in a Team Environment**
-  My courses frequently simulated team environments, utilizing collaborative strategies such as developing comprehensive software design documents for systems, effective communication with the professor, or in one instance practicing an Agile software development life cycle by simulating each Scrum team role (Scrum Master, Product Owner, Developer, Tester) to encourage continuous integration and delivery. This taught me the importance of clear communication and iterative improvement.
+  My courses frequently simulated team environments, utilizing collaborative strategies such as developing comprehensive software design documents for systems, effective communication with the professor, or in one instance, practicing an Agile software development life cycle by simulating each Scrum team role (Scrum Master, Product Owner, Developer, Tester) to encourage continuous integration and delivery. This taught me the importance of clear communication and iterative improvement.
 
 - **Communicating With Stakeholders**  
-  In the same Scrum team simulation, I incorporated stakeholder communication by planning Sprint Reviews and integrating client feedback to update user stories. I've also frequently interacted with hypothetical clients for projects, such as by reading client-meeting transcripts, to refine my ability to understand the client's needs and translate them into software systems that address each requirement.
+  In the same Scrum team simulation, I incorporated stakeholder communication by planning Sprint Reviews and integrating client feedback to update user stories. I’ve also frequently interacted with hypothetical clients for projects, such as by reading client-meeting transcripts, to refine my ability to understand clients' needs and translate them into software systems that address each requirement.
 
 - **Data Structures and Algorithms**  
-  I have implemented both standard (HashMaps) and more advanced (Radix Tries) data structures, deepening my understanding of trade-offs in speed, memory usage, and application complexity.
+    In the same Scrum team simulation, I incorporated stakeholder communication by planning Sprint Reviews and integrating client feedback to update user stories. I’ve also frequently interacted with hypothetical clients for projects, such as by reading client-meeting transcripts, to refine my ability to understand clients' needs and translate them into software systems that address each requirement.
+
 
 - **Software Engineering and Databases**  
-  I've developed projects that integrate database, like MongoDB for a web-based database dashboard using the PyMongo driver, or Firebase Realtime Database for an Android CRUD application with a cloud-based NoSQL solution. I've also worked with SQLite for a local relational storage and querying solution.
+  I’ve developed projects integrating databases, like MongoDB, for a web-based database dashboard using the PyMongo driver or Firebase Realtime Database for an Android CRUD application with a cloud-based NoSQL solution. I’ve also worked with SQLite for a local relational storage and querying solution.
 
 - **Security Mindset**  
-  I learned how to anticipate exploits and mitigate vulnerabilities, such as in a Spring Boot program where I addressed vulnerabilities found through static and functional testing, and integrated SHA-256 checksums to verify file integrity during data transfers. Proactively designing applications with security in mind and exhaustive testing is vital in preventing critical defects or attacks in the integrity of the software.  
+  I learned how to anticipate exploits and mitigate vulnerabilities, such as in a Spring Boot program where I addressed vulnerabilities found through static and functional testing and integrated SHA-256 checksums to verify file integrity during data transfers. Proactively designing applications with security in mind and exhaustive testing is vital in preventing critical defects or attacks on the integrity of the software.
 
 **Overview of My Artifacts**  
-For my final capstone course, I developed three enhancements to showcase core skills in Software Engineering/Design, Data Structures/Algorithms, and Databases. Each artifact—particularly my **Day Planner** application (enhanced to demonstrate GUI and data structure improvements) and my **Inventory Tracker** mobile application (enhanced with Firebase integration) serves as the basis of my professional journey and is representational of my dedication to building secure, user-friendly, and efficient applications.
+I developed three enhancements for my final capstone course to showcase core skills in Software Engineering/Design, Data Structures/Algorithms, and Databases. Each artifact—particularly my **Day Planner** application (enhanced to demonstrate GUI and data structure improvements) and my **Inventory Tracker** mobile application (enhanced with Firebase integration) serves as the basis of my professional journey and is representational of my dedication to building secure, user-friendly, and efficient applications.
 
 ---
 
