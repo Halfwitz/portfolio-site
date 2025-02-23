@@ -85,6 +85,7 @@ A **Java-based** system for managing contacts, tasks, and appointments--It began
 <img src="assets/images/inventorytracker-login.jpg" alt="Inventory Tracker Login Screen" width="30%"/>
 <img src="assets/images/inventorytracker-inventory.jpg" alt="Inventory Tracker Inventory Screen" width="30%"/>
 <img src="assets/images/inventorytracker-edititem.jpg" alt="Inventory Tracker Edit Item Screen" width="30%"/>
+
 An **Android mobile application** for managing inventory items--The original artifact stored user credentials and inventory data locally using SQLite, and handled user authentication and SMS alerts for items reaching zero stock. To address security exploit concerns and improve practicality of the app, I transitioned from SQLite to a cloud-based NoSQL solution. 
 
 **Enhancements:**
