@@ -31,7 +31,7 @@ As a developer, I am particularly intrigued by **backend and full-stack developm
   In the same Scrum team simulation, I incorporated stakeholder communication by planning Sprint Reviews and integrating client feedback to update user stories. I’ve also frequently interacted with hypothetical clients for projects, such as by reading client-meeting transcripts, to refine my ability to understand clients' needs and translate them into software systems that address each requirement.
 
 - **Data Structures and Algorithms**  
-    In the same Scrum team simulation, I incorporated stakeholder communication by planning Sprint Reviews and integrating client feedback to update user stories. I’ve also frequently interacted with hypothetical clients for projects, such as by reading client-meeting transcripts, to refine my ability to understand clients' needs and translate them into software systems that address each requirement.
+  In the same Scrum team simulation, I incorporated stakeholder communication by planning Sprint Reviews and integrating client feedback to update user stories. I’ve also frequently interacted with hypothetical clients for projects, such as by reading client-meeting transcripts, to refine my ability to understand clients' needs and translate them into software systems that address each requirement.
 
 
 - **Software Engineering and Databases**  
